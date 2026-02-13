@@ -35,7 +35,10 @@ The dev container runs with a **network firewall** that restricts outbound traff
 
 The site is deployed via **GitHub Actions** (`.github/workflows/pages.yml`) — on every push to `main`, the workflow builds with Jekyll and deploys via `actions/deploy-pages`. Build artifacts (`_site/`, `docs/`) are gitignored and never committed.
 
+The custom domain `tylerganter.com` is configured on the **user site repo** (`tylerganter.github.io`), not this repo. This blog is a GitHub Pages **project site** — it's automatically served at `tylerganter.com/blog/` via `baseurl: "/blog"` in `_config.yml`, with no custom domain setting needed on this repo.
+
 ## Lessons Learned
 
 - VS Code/Cursor inject a credential helper into `/etc/gitconfig` inside devcontainers; `GIT_CONFIG_NOSYSTEM=1` in `containerEnv` prevents this from overriding `gh auth git-credential`.
 - Keep `CLAUDE.md` lean — it's always in context, so move detailed commands and setup instructions to dedicated docs and cross-reference instead.
+- The `ruby/setup-ruby` action requires an explicit `ruby-version` or a `.ruby-version` file — without either, the workflow fails immediately.
