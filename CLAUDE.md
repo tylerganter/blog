@@ -6,8 +6,8 @@ IMPORTANT: **AI Instruction File Maintenance** — For every PR, you MUST do the
 
 ## Development Environment
 
-- **Platform**: macOS with devcontainer CLI (npm install, not VS Code)
-- **Container runtime**: Docker via devcontainer CLI
+- **Platform**: macOS with devcontainer CLI or Cursor (VS Code-based dev container)
+- **Container runtime**: Docker via devcontainer CLI or Cursor
 - **Working directory**: `/workspace` (inside container)
 
 ## Local Development Server

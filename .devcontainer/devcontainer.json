@@ -56,6 +56,6 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/workspace",
   "postCreateCommand": "bundle install",
-  "postStartCommand": "sudo /usr/local/bin/init-gh-volume.sh && sudo /usr/local/bin/init-firewall.sh",
+  "postStartCommand": "sudo /usr/local/bin/init-gh-volume.sh && sudo /usr/local/bin/init-firewall.sh && git config --global credential.helper '!/usr/bin/gh auth git-credential'",
   "waitFor": "postStartCommand"
 }
