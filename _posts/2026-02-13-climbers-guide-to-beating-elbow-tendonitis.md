@@ -4,6 +4,8 @@ date: 2026-02-13
 tags: [climbing]
 ---
 
+> **This is a draft.** I'm publishing it early because I'd rather get something useful out there than wait for perfection — but I want to be upfront: some sections still contain AI-generated slop and outright hallucinations that I haven't fully fact-checked or rewritten yet. I used AI to help me get the structure and initial content down, and while the core advice reflects my real experience, there are passages where the AI got way too confident about things I haven't personally verified. If something reads like generic filler or makes a suspiciously specific claim, trust your gut — it probably needs work. I'm actively revising this, so bear with me.
+
 In a way, I'm sorry you've arrived here. In another, I'm genuinely happy. I'm sorry you're dealing with elbow problems, but I'm thrilled you've made it to this page because I wrote it just for you. I want to provide you with useful resources and tips to get your elbows feeling strong and healthy, and to get you back to climbing. Most importantly, I want you to know that you are not alone, and you can beat this.
 
 What is this article? I'd summarize it as a personal account of one climber's road to recovery from the elbow pain that plagues our community, accompanied by a wealth of resources and anecdotal advice on how to overcome it.

@@ -44,6 +44,10 @@ venv/
 # Writing style skill (personal, not tracked)
 .claude/skills/write/
 
+# Draft working directories
+_drafts/digital_detox/
+_drafts/elbow_tendonitis/
+
 # Temporary files
 *.tmp
 *.swp
