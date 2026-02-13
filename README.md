@@ -23,10 +23,10 @@ Your content here...
 ```bash
 devcontainer up --workspace-folder .
 devcontainer exec --workspace-folder . bash
-bundle exec jekyll serve --baseurl /blog
+bundle exec jekyll serve --baseurl /blog --host 0.0.0.0
 ```
 
-Visit http://localhost:4000/blog/
+Visit http://localhost:4000/blog/ (trailing slash required).
 
 ### Native
 
@@ -39,11 +39,6 @@ bundle exec jekyll serve --baseurl /blog
 
 ## Publishing
 
-Build the site and push:
-
-```bash
-bundle exec jekyll build
-git add -A && git commit -m "Add post: title" && git push
-```
+Changes go through feature branches and pull requests. See the devcontainer [GITHUB.md](.devcontainer/GITHUB.md) for the full workflow.
 
 GitHub Pages serves the `docs/` directory automatically.

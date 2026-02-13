@@ -13,16 +13,18 @@ IMPORTANT: **AI Instruction File Maintenance** — For every PR, you MUST do the
 ## Local Development Server
 
 ```bash
-bundle exec jekyll serve --baseurl /blog
+bundle exec jekyll serve --baseurl /blog --host 0.0.0.0
 ```
 
-Then visit http://localhost:4000/blog/
+Then visit http://localhost:4000/blog/ (trailing slash required — WEBrick returns 404 without it).
 
 To preview drafts:
 
 ```bash
-bundle exec jekyll serve --baseurl /blog --drafts
+bundle exec jekyll serve --baseurl /blog --host 0.0.0.0 --drafts
 ```
+
+**Note**: `--host 0.0.0.0` is required so the server is reachable from outside the devcontainer. Without it, Jekyll binds to `127.0.0.1` (container-local only) and the host machine gets `ERR_EMPTY_RESPONSE`.
 
 ## Project Overview
 
