@@ -46,7 +46,7 @@ After creating the app, scroll down and click **Generate a private key**. Save t
 
 ### 3. Install the App
 
-Go to **Install App** in the sidebar and install it on your repository.
+Go to **Install App** in the sidebar and install it on your repository. To add the app to additional repos later, go to `https://github.com/settings/installations`, click **Configure**, and update **Repository access** (note: this is on the installations page, not the app's edit page).
 
 ### 4. Run Setup
 

@@ -68,10 +68,6 @@ For the full workflow (branching, committing, PRs, syncing), see the [git-github
 
 <!-- TODO: Define whether `bundle exec jekyll build` should be run and `docs/` committed as part of every PR, or only on demand. -->
 
-## Lessons Learned
-
-- When installing a GitHub App on a new repo, "Repository access" is under `github.com/settings/installations` (Configure), not the app's edit page.
-
 ## Container Environment
 
 The dev container runs with a **network firewall** that restricts outbound traffic to GitHub, Anthropic, npm/rubygems, and VS Code marketplace only. See [.devcontainer/README.md](.devcontainer/README.md) for container setup and [init-firewall.sh](.devcontainer/init-firewall.sh) for the full allowlist.
