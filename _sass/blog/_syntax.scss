@@ -1,0 +1,75 @@
+// =============================================================================
+// Syntax Highlighting — Dark theme (One Dark inspired)
+// For Rouge code highlighter used by Jekyll/kramdown
+// =============================================================================
+
+.highlight {
+  background-color: $bg-code;
+  border-radius: $radius-md;
+  margin: $sp-8 0;
+
+  pre {
+    margin: 0;
+    background: none;
+  }
+
+  // Comments
+  .c, .c1, .cm, .cs, .ch { color: #6a737d; font-style: italic; }
+
+  // Strings
+  .s, .s1, .s2, .sb, .sc, .sd, .sh, .sx { color: #98c379; }
+
+  // Keywords
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #c678dd; }
+
+  // Numbers
+  .m, .mi, .mf, .mh, .mo, .il { color: #d19a66; }
+
+  // Functions
+  .nf, .fm { color: #61afef; }
+
+  // Classes / namespaces
+  .nc, .nn { color: #e5c07b; }
+
+  // Variables
+  .nv, .vi, .gp { color: #e06c75; }
+
+  // Operators
+  .o, .ow { color: #56b6c2; }
+
+  // Constants
+  .no { color: #d19a66; }
+
+  // Built-in names
+  .nb { color: #56b6c2; }
+
+  // Attributes
+  .na { color: #d19a66; }
+
+  // Tags (HTML/XML)
+  .nt { color: #e06c75; }
+
+  // Punctuation
+  .p { color: #abb2bf; }
+
+  // Generic styles
+  .ge { font-style: italic; }
+  .gs { font-weight: bold; }
+  .gd { color: #e06c75; }
+  .gi { color: #98c379; }
+
+  // Default text / names
+  .n, .nx { color: #abb2bf; }
+
+  // Errors / whitespace
+  .err { color: #e06c75; }
+  .w   { color: #abb2bf; }
+
+  // Misc
+  .bp       { color: #e5c07b; }
+  .vc, .vg  { color: #e06c75; }
+  .vs       { color: #98c379; }
+  .sr       { color: #98c379; }
+  .si, .se  { color: #d19a66; }
+  .ss       { color: #98c379; }
+}
