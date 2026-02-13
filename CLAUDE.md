@@ -31,7 +31,7 @@ bundle exec jekyll serve --baseurl /blog --host 0.0.0.0 --drafts
 Personal blog built with Jekyll, served via GitHub Pages at `tylerganter.com/blog/`.
 
 ### Key Directories
-- `/workspace/docs/` - Generated site output (served by GitHub Pages)
+- `/workspace/_site/` - Generated site output (local builds; not committed — GitHub Actions builds and deploys automatically)
 - `/workspace/_posts/` - Published blog posts (Markdown)
 - `/workspace/_drafts/` - Unpublished drafts (Markdown)
 - `/workspace/_layouts/` - Custom HTML layouts (optional, theme provides defaults)
@@ -56,7 +56,7 @@ Content in Markdown...
 bundle exec jekyll build
 ```
 
-Output goes to `docs/` (configured via `destination` in `_config.yml`).
+Output goes to `_site/` (Jekyll default). Deployment is handled automatically by GitHub Actions on push to `main` — no need to commit build output.
 
 ## Git & GitHub Workflow
 
@@ -68,8 +68,10 @@ For the full workflow (branching, committing, PRs, syncing), see the [git-github
 
 <!-- TODO: Define autonomy boundaries — what Claude can do proactively (e.g., commit, push, open PRs on feature branches) vs. what requires asking the user first. -->
 
-<!-- TODO: Define whether `bundle exec jekyll build` should be run and `docs/` committed as part of every PR, or only on demand. -->
-
 ## Container Environment
 
 The dev container runs with a **network firewall** that restricts outbound traffic to GitHub, Anthropic, npm/rubygems, and VS Code marketplace only. See [.devcontainer/README.md](.devcontainer/README.md) for container setup and [init-firewall.sh](.devcontainer/init-firewall.sh) for the full allowlist.
+
+## Deployment
+
+The site is deployed via **GitHub Actions** (`.github/workflows/pages.yml`) — on every push to `main`, the workflow builds with Jekyll and deploys via `actions/deploy-pages`. After merging the migration PR, switch the Pages source with: `gh api repos/tylerganter/blog/pages --method PUT --field build_type=workflow`. Build artifacts (`_site/`, `docs/`) are gitignored and never committed.
