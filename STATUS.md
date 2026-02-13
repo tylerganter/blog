@@ -6,7 +6,7 @@
 - **devcontainer CLI** installed (`npm install -g @devcontainers/cli`)
 - **`ANTHROPIC_API_KEY`** exported in your shell (the container picks it up automatically)
 
-## 1. Build and start the container
+## 1. Build and start the container ✅
 
 ```bash
 devcontainer up --workspace-folder .
@@ -16,7 +16,7 @@ This builds the Docker image (Node 20 base, Ruby, Jekyll, Claude Code, gh CLI, f
 
 The first build takes a few minutes. Subsequent starts reuse the cached image.
 
-## 2. Enter the container
+## 2. Enter the container ✅
 
 ```bash
 devcontainer exec --workspace-folder . bash
@@ -24,15 +24,17 @@ devcontainer exec --workspace-folder . bash
 
 You're now at `/workspace` inside the container as the `node` user.
 
-## 3. Install Ruby dependencies
+## 3. Install Ruby dependencies ✅ (automated)
+
+Ruby gems are installed automatically via `postCreateCommand` in `devcontainer.json` when the container is first created. To re-install manually:
 
 ```bash
 bundle install
 ```
 
-This installs the gems from `Gemfile` (Jekyll, minima theme, plugins). Gems are stored in `/home/node/.gems` so they persist across shell sessions within the same container.
+Gems are stored in `/home/node/.gems` and persist across shell sessions within the same container.
 
-## 4. Run Claude Code
+## 4. Run Claude Code ✅
 
 ```bash
 claude
