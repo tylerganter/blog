@@ -15,6 +15,9 @@ node_modules/
 # Claude settings (local)
 .claude/settings.local.json
 
+# Writing style skill (personal, not tracked)
+.claude/skills/write/
+
 # Temporary files
 *.tmp
 *.swp
