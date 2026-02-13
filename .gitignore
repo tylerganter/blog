@@ -1,0 +1,19 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Local development
+.DS_Store
+*.log
+node_modules/
+
+# Claude settings (local)
+.claude/settings.local.json
+
+# Temporary files
+*.tmp
+*.swp
