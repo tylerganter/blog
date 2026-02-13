@@ -31,6 +31,8 @@ For the full workflow (branching, committing, PRs, syncing), see the [github ski
 
 The dev container runs with a **network firewall** that restricts outbound traffic to GitHub, Anthropic, npm/rubygems, and VS Code marketplace only. See [.devcontainer/README.md](.devcontainer/README.md) for container setup and [init-firewall.sh](.devcontainer/init-firewall.sh) for the full allowlist.
 
+**Python packages**: Use `uv` (installed in the container) for Python package management — e.g., `uv pip install pyyaml`. There is no system `pip`.
+
 ## Deployment
 
 The site is deployed via **GitHub Actions** (`.github/workflows/pages.yml`) — on every push to `main`, the workflow builds with Jekyll and deploys via `actions/deploy-pages`. Build artifacts (`_site/`, `docs/`) are gitignored and never committed.
@@ -43,3 +45,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - Keep `CLAUDE.md` lean — it's always in context, so move detailed commands and setup instructions to dedicated docs and cross-reference instead.
 - The `ruby/setup-ruby` action requires an explicit `ruby-version` or a `.ruby-version` file — without either, the workflow fails immediately.
 - All Claude Code skills live under `.claude/skills/` — avoid placing them in alternative directories like `.agents/` to keep tool discovery consistent.
+- To override Minima's gem-based theme, place files with matching paths in the project root (`_layouts/`, `_includes/`, `_sass/`, `assets/main.scss`) — Jekyll prioritizes project files over the gem's bundled versions.

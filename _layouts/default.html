@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
+    <script>
+      // Mobile nav toggle
+      document.addEventListener('DOMContentLoaded', function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var links = document.querySelector('.nav-links');
+        if (toggle && links) {
+          toggle.addEventListener('click', function() {
+            var expanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', !expanded);
+            links.classList.toggle('active');
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

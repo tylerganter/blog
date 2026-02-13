@@ -9,6 +9,19 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/

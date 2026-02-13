@@ -1,0 +1,166 @@
+// =============================================================================
+// Base Styles — Reset, typography, and HTML element defaults
+// =============================================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-sans;
+  font-size: $text-base;
+  line-height: $leading-normal;
+  color: $text-primary;
+  background-color: $bg-page;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: $leading-tight;
+  color: $text-primary;
+  margin-top: $sp-8;
+  margin-bottom: $sp-4;
+}
+
+h1 { font-size: $text-3xl; }
+h2 { font-size: $text-2xl; }
+h3 { font-size: $text-xl; }
+h4 { font-size: $text-lg; }
+
+// Links
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: color $transition;
+
+  &:hover {
+    color: $color-link-hover;
+  }
+}
+
+// Paragraphs
+p {
+  margin-top: 0;
+  margin-bottom: $sp-6;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: $radius-md;
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: $sp-10 0;
+}
+
+// Blockquotes
+blockquote {
+  margin: $sp-8 0;
+  padding: $sp-4 $sp-6;
+  border-left: 3px solid $accent-purple;
+  background-color: rgba($accent-purple, 0.06);
+  border-radius: 0 $radius-md $radius-md 0;
+  color: $text-secondary;
+  font-style: italic;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Strong / emphasis
+strong, b {
+  font-weight: 700;
+  color: $text-primary;
+}
+
+em, i {
+  color: $text-secondary;
+}
+
+// Lists
+ul, ol {
+  margin-top: 0;
+  margin-bottom: $sp-6;
+  padding-left: $sp-8;
+
+  li {
+    margin-bottom: $sp-2;
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $sp-8;
+  font-size: $text-sm;
+
+  th, td {
+    padding: $sp-3 $sp-4;
+    border: 1px solid $border-color;
+    text-align: left;
+  }
+
+  th {
+    background-color: $bg-elevated;
+    font-weight: 600;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+// Inline code
+code {
+  font-family: $font-mono;
+  font-size: 0.85em;
+  padding: 0.2em 0.4em;
+  background-color: rgba($accent-purple, 0.15);
+  border-radius: $radius-sm;
+  color: $accent-purple;
+}
+
+// Code blocks
+pre {
+  background-color: $bg-code;
+  color: #e4e4e7;
+  padding: $sp-6;
+  border-radius: $radius-md;
+  overflow-x: auto;
+  margin: $sp-8 0;
+  font-size: $text-sm;
+  line-height: 1.6;
+
+  code {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    color: inherit;
+    font-size: inherit;
+  }
+}
+
+// Text selection
+::selection {
+  background: rgba($color-link, 0.3);
+  color: #ffffff;
+}

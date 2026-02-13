@@ -1,0 +1,16 @@
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Posts</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="https://tylerganter.com" target="_blank" rel="noopener">Portfolio</a>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-gradient"></div>
+</header>
