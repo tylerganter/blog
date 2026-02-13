@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="{{ '/assets/images/tganter_ghibli.png' | relative_url }}" alt="Tyler Ganter, Studio Ghibli style" style="width: 150px; border-radius: 50%; float: right; margin: 0 0 1em 1.5em;">
+
 Hi, I'm Tyler. I'm an AI engineer based in ~~Los Angeles~~ *(AI hallucination)* Albuquerque.
 
 This blog is a place for me to write about things I'm thinking about — AI, climbing, elbow rehab, maintaining a healthy relationship with technology, and whatever else I find interesting enough to put into words. No particular theme, no schedule.
