@@ -25,6 +25,11 @@ Claude authenticates as a **GitHub App** (`tylerganter-claude-bot[bot]`), which 
 
 For the full workflow (branching, committing, PRs, syncing), see the [github skill](.claude/skills/github/SKILL.md). For authentication setup and the security model, see [GITHUB.md](.devcontainer/GITHUB.md).
 
+### Environment-Specific Capabilities
+
+- **Devcontainer (VS Code / Cursor):** Full workflow — commit, push, and create PRs via `gh pr create` using the GitHub App identity. The `gh` CLI is pre-installed and authenticated via the app's private key on a Docker volume.
+- **Claude Code web session (claude.ai/code):** Can commit and push to feature branches (git operations route through an authenticated proxy), but **cannot create PRs** — the GitHub App credentials are not available in the web environment. Instead, push the branch and summarize completed work so the human can create the PR.
+
 <!-- TODO: Define autonomy boundaries — what Claude can do proactively (e.g., commit, push, open PRs on feature branches) vs. what requires asking the user first. -->
 
 ## Container Environment
@@ -46,5 +51,7 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - The `ruby/setup-ruby` action requires an explicit `ruby-version` or a `.ruby-version` file — without either, the workflow fails immediately.
 - All Claude Code skills live under `.claude/skills/` — avoid placing them in alternative directories like `.agents/` to keep tool discovery consistent.
 - To override Minima's gem-based theme, place files with matching paths in the project root (`_layouts/`, `_includes/`, `_sass/`, `assets/main.scss`) — Jekyll prioritizes project files over the gem's bundled versions.
+- The planned "Writing voice" skill referenced in the first blog post does not yet exist — when matching the author's tone without it, read existing posts for voice calibration (conversational, direct, self-aware, not over-polished).
 - Draft source materials (e.g., PDFs exported from Medium) in `_drafts/` preserve embedded hyperlinks that get stripped in plain-text copies — `pymupdf` can extract them programmatically.
 - Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
+- Claude Code web sessions can push to branches but cannot create PRs — the GitHub App private key only exists in the devcontainer's Docker volume, not in Anthropic's hosted environment.
