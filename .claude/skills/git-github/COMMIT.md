@@ -51,8 +51,10 @@ Create a PR proactively when:
 - You want feedback on work in progress (mark as draft)
 - The branch has diverged significantly from main
 
+Always add `tylerganter` as a reviewer unless explicitly instructed otherwise.
+
 ```bash
-gh pr create --title "Add feature X" --body "## Summary
+gh pr create --reviewer tylerganter --title "Add feature X" --body "## Summary
 - What this PR does
 - Why it's needed
 
@@ -63,7 +65,7 @@ gh pr create --title "Add feature X" --body "## Summary
 ### Draft PRs for Work in Progress
 
 ```bash
-gh pr create --draft --title "WIP: Feature X" --body "Work in progress."
+gh pr create --draft --reviewer tylerganter --title "WIP: Feature X" --body "Work in progress."
 ```
 
 ## Addressing Review Feedback

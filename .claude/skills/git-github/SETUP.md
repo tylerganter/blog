@@ -36,23 +36,7 @@ Permissions explicitly **omitted** for security:
 - Administration (no repo settings changes)
 - Actions/Workflows (no CI/CD modifications)
 
-## Security Model
-
-### Two-Layer Protection
-
-1. **GitHub App**: Restricts access to only installed repositories with defined permissions
-2. **Branch Protection**: Server-side rules that cannot be bypassed
-
-### Branch Protection (GitHub Rulesets)
-
-The `main` branch should be protected with a GitHub Ruleset:
-- **Enforcement status**: Active (critical—disabled rulesets don't protect anything)
-- **Target branches**: Include default branch
-- **Require a pull request before merging**: enabled, with 1 required approval
-- **Block force pushes**: enabled
-- **Bypass list**: empty or restricted to trusted admins
-
-**Important**: Even with valid credentials, direct pushes to protected branches will fail. All changes must go through PRs.
+For the full security model, see [GITHUB.md](../../../.devcontainer/GITHUB.md#security-model).
 
 ## Credential Management
 

@@ -50,10 +50,12 @@
   "containerEnv": {
     "NODE_OPTIONS": "--max-old-space-size=4096",
     "CLAUDE_CONFIG_DIR": "/home/node/.claude",
-    "POWERLEVEL9K_DISABLE_GITSTATUS": "true"
+    "POWERLEVEL9K_DISABLE_GITSTATUS": "true",
+    "GIT_CONFIG_NOSYSTEM": "1"
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/workspace",
-  "postStartCommand": "sudo /usr/local/bin/init-gh-volume.sh && sudo /usr/local/bin/init-firewall.sh",
+  "postCreateCommand": "bundle install",
+  "postStartCommand": "sudo /usr/local/bin/init-gh-volume.sh && sudo /usr/local/bin/init-firewall.sh && git config --global credential.helper '!/usr/bin/gh auth git-credential'",
   "waitFor": "postStartCommand"
 }
