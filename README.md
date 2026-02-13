@@ -41,4 +41,4 @@ bundle exec jekyll serve --baseurl /blog
 
 Changes go through feature branches and pull requests. See the devcontainer [GITHUB.md](.devcontainer/GITHUB.md) for the full workflow.
 
-GitHub Pages serves the `docs/` directory automatically.
+The site deploys automatically via GitHub Actions on push to `main`.
