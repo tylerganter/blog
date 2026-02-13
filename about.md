@@ -4,6 +4,12 @@ title: About
 permalink: /about/
 ---
 
+*🤖 Disclaimer: This page was written with AI assistance. <span style="color: #b8d4b2;">Text that is predominantly AI-written will appear in this color.</span>*
+
+---
+
+<div style="color: #b8d4b2;" markdown="1">
+
 <img src="{{ '/assets/images/tganter_ghibli.png' | relative_url }}" alt="Tyler Ganter, Studio Ghibli style" style="width: 150px; border-radius: 50%; float: right; margin: 0 0 1em 1.5em;">
 
 Hi, I'm Tyler. I'm an AI engineer based in ~~Los Angeles~~ *(AI hallucination)* Albuquerque.
@@ -14,8 +20,8 @@ The real motivation is simpler than that, though. I want to write more, and I wa
 
 This also feels like a genuinely interesting moment to be doing this. With tools like [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) running asynchronously, the friction between "I have an idea" and "it's published" is lower than it's ever been. That makes the whole thing feel more possible, and a little bit like a meta-experiment in its own right.
 
-I generally don't love social media, so I'm choosing to publish here instead. I did recently start posting on [Twitter](https://x.com/tyler_ganter) — whether that sticks remains to be seen. But the goal is to keep the center of mass here, on a site I control.
+I generally don't love social media, so I'm choosing to publish here instead. I did recently start posting on [X](https://x.com/TylerGanter3485) *(Claude Code [hallucinated this URL](https://x.com/tyler_ganter), linking to the wrong account — had to correct it manually)* — whether that sticks remains to be seen. But the goal is to keep the center of mass here, on a site I control.
 
 If you want to get in touch, you can find me at [tylerganter.com](https://tylerganter.com).
 
-*This page was written with AI assistance.*
+</div>

@@ -4,6 +4,8 @@ date: 2026-02-13
 tags: [climbing]
 ---
 
+> *🤖 Disclaimer: This post was written with AI assistance. Sections where the AI generated the majority of the content from my outline notes are colored accordingly: <span style="color: #b8d4b2;">AI-expanded text appears in this color.</span>*
+
 > **This is a draft.** I'm publishing it early because I'd rather get something useful out there than wait for perfection — but I want to be upfront: some sections still contain AI-generated slop and outright hallucinations that I haven't fully fact-checked or rewritten yet. I used AI to help me get the structure and initial content down, and while the core advice reflects my real experience, there are passages where the AI got way too confident about things I haven't personally verified. If something reads like generic filler or makes a suspiciously specific claim, trust your gut — it probably needs work. I'm actively revising this, so bear with me.
 
 In a way, I'm sorry you've arrived here. In another, I'm genuinely happy. I'm sorry you're dealing with elbow problems, but I'm thrilled you've made it to this page because I wrote it just for you. I want to provide you with useful resources and tips to get your elbows feeling strong and healthy, and to get you back to climbing. Most importantly, I want you to know that you are not alone, and you can beat this.
@@ -213,17 +215,23 @@ There's a common misconception that endurance climbing is about economy of movem
 
 ### After
 
+<div style="color: #b8d4b2;" markdown="1">
+
 Cooling down is just as important as warming up, and it's the one that's easiest to skip. The goal is to bring blood flow back to the tissues that just took a beating and help flush out the metabolic byproducts.
 
 - **Get some light cardio going** — jumping jacks, a short hike, or even a brisk walk. Something to keep blood circulating through the upper body without loading the elbows.
 - **Light stretching** — nothing aggressive, just enough to maintain range of motion while the muscles are still warm.
 - **Massage your forearms** — even a quick 2--3 minute session with your thumbs (or an Armaid if you have one) can make a noticeable difference in how you feel the next day.
 
+</div>
+
 ## Supplemental Exercise
 
 As I mentioned before, I break supplemental exercises into two categories: injury prevention and base fitness. Assuming pull exercises are paired with push exercises, as climbers there are specific risk areas — predominantly the pulling muscles of the upper body, from the back through the shoulder complex to the elbows, forearms, and fingers.
 
 ### Injury Prevention
+
+<div style="color: #b8d4b2;" markdown="1">
 
 These exercises target the specific weak links in the kinetic chain that make climbers prone to elbow issues. The key areas:
 
@@ -236,7 +244,11 @@ These exercises target the specific weak links in the kinetic chain that make cl
 - **[Grassroots Self Treatment](https://www.grassrootsselftreatment.com/products/climbing-cross-training-exercises) Climber's Kit — Strength section** — Esther Smith's program is excellent and purpose-built for climbers. The strength exercises specifically target the upstream mobility and stability issues that lead to overuse injuries downstream.
 - **The 3 sidelying exercises** — Sidelying external rotation, sidelying horizontal abduction, and sidelying forward flexion. These hit the rotator cuff and scapular stabilizers in positions that are hard to replicate standing.
 
+</div>
+
 ### Base Fitness
+
+<div style="color: #b8d4b2;" markdown="1">
 
 If you're only climbing and doing injury prevention work, you're missing a big piece of the puzzle. General strength conditioning reduces injury risk by building a more resilient body overall.
 
@@ -246,6 +258,8 @@ If you're only climbing and doing injury prevention work, you're missing a big p
 - **Shoulder stability** — Handstands, ring work, or even just wall slides. The shoulder is the most mobile (and therefore most vulnerable) joint in the pulling chain.
 
 A couple of notes on supplemental exercise in general: be careful of elbow hyperextension, especially if you're hypermobile. Even exercises with "proper form" calling for locked elbows (like planche progressions) may need to be modified with a slight bend. And vary your tools — alternate between dumbbells, exercise bands, and bodyweight. Each loads the tissues slightly differently, which is exactly the kind of varied stimulus that promotes resilient tendons.
+
+</div>
 
 ## Other Practices
 
@@ -268,12 +282,16 @@ Another option is a massage gun. They're getting affordable nowadays. Personally
 
 I'm putting this after massaging because, from experience, I haven't actually found elbow-specific stretches to be all that important. That said, there are some mobility practices worth incorporating:
 
+<div style="color: #b8d4b2;" markdown="1">
+
 - **Don't overdo the wrist stretches** — This is a common mistake. Aggressive wrist stretching can actually irritate the tendons further, especially during recovery. Gentle is the keyword.
 - **[Grassroots Self Treatment](https://www.grassrootsselftreatment.com/products/climbing-cross-training-exercises) Climber's Kit — Mobility section** — Esther Smith's mobility work is well-balanced and climber-specific.
 - **[Tom Merrick's Climber's Mobility Routine](https://www.youtube.com/watch?v=x-1OJW3OMb4&t=749s)** — Another great resource, though be cautious with the wrist-cranking portions if your elbows are sensitive.
 - **Radial nerve glides** — These can be very helpful if nerve tension is contributing to your symptoms. They're gentle movements that help the nerve slide through its surrounding tissues.
 - **Neck stretches (McKenzie method)** — I was skeptical, but there is a nerve connection between the neck and the forearm. Some climbers swear by this. For me, it helped temporarily but wasn't the silver bullet I was hoping for.
 - **[Lattice Training's](https://latticetraining.com/) stretching protocols** — A solid general-purpose climbing stretch routine.
+
+</div>
 
 ### Icing
 
@@ -328,12 +346,18 @@ In the acute phase of epicondylitis, these strategies can provide some relief wh
 
 ### Rest
 
+<div style="color: #b8d4b2;" markdown="1">
+
 Rest is the easiest thing to recommend and the hardest thing to actually do. Two things to keep in mind:
 
 - **Enough rest days in a week.** If you're climbing three days a week, make sure they're not three days in a row. Your tendons need recovery time between sessions, and unlike muscles, tendons are slow to heal and slow to adapt. Two to three climbing days per week with rest days between them is a good starting point during recovery.
 - **Take a week or two off a few times a year.** Periodized programs usually build this in, but if you're not following one, schedule it yourself. These rest periods give the tendons a chance to fully catch up on repair. I know it feels like you're losing fitness — and you are, a little — but the long-term payoff of healthy tendons far outweighs a minor detraining blip.
 
+</div>
+
 ## Conclusion
+
+<div style="color: #b8d4b2;" markdown="1">
 
 If I'm being honest, the root of my tendonitis was indoor over-training during those Michigan winters — high volume, no structure, all enthusiasm and no planning. It took me a long time to admit that.
 
@@ -347,6 +371,8 @@ A few final thoughts:
 
 I'm not sponsored by any of the products or resources mentioned here. Maybe I should be? But honestly, I'd rather this remain an unbiased account. Take what's useful, discard what isn't, and remember that the goal isn't to follow some perfect protocol — it's to develop the knowledge and body awareness to take care of yourself for a lifetime of climbing.
 
+</div>
+
 I'd love to know if you found this useful.
 
 ## Educational Resources
@@ -358,5 +384,3 @@ I'd love to know if you found this useful.
 - [Esther Smith on Elbows — TrainingBeta Podcast](https://www.trainingbeta.com/media/esther-smith-elbows/)
 
 ---
-
-*This post was written with AI assistance.*
