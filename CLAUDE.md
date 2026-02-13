@@ -23,7 +23,7 @@ All changes go through **feature branches and pull requests** — never push dir
 
 Claude authenticates as a **GitHub App** (`tylerganter-claude-bot[bot]`), which gives it its own identity separate from the repo owner. This means the owner can approve PRs that Claude creates.
 
-For the full workflow (branching, committing, PRs, syncing), see the [git-github skill](.claude/skills/git-github/SKILL.md). For authentication setup and the security model, see [GITHUB.md](.devcontainer/GITHUB.md).
+For the full workflow (branching, committing, PRs, syncing), see the [github skill](.claude/skills/github/SKILL.md). For authentication setup and the security model, see [GITHUB.md](.devcontainer/GITHUB.md).
 
 <!-- TODO: Define autonomy boundaries — what Claude can do proactively (e.g., commit, push, open PRs on feature branches) vs. what requires asking the user first. -->
 

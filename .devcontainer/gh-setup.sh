@@ -94,8 +94,8 @@ echo "$installation_id" > "$CREDENTIALS_DIR/installation-id"
 echo ""
 echo "Generating installation access token..."
 
-# Generate token using the helper script (located in git-github skill)
-token=$("$REPO_ROOT/.claude/skills/git-github/scripts/gh-app-token.sh")
+# Generate token using the helper script (located in github skill)
+token=$("$REPO_ROOT/.claude/skills/github/scripts/gh-app-token.sh")
 
 if [ -z "$token" ]; then
     echo "Failed to generate token. Check your credentials."
