@@ -45,7 +45,7 @@ For the full security model, see [GITHUB.md](../../../.devcontainer/GITHUB.md#se
 GitHub App tokens expire after 1 hour. To refresh:
 
 ```bash
-.claude/skills/git-github/scripts/gh-app-token.sh | gh auth login --with-token
+.claude/skills/github/scripts/gh-app-token.sh | gh auth login --with-token
 ```
 
 ### Clear Credentials
