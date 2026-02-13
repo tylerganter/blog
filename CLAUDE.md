@@ -47,3 +47,5 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - All Claude Code skills live under `.claude/skills/` — avoid placing them in alternative directories like `.agents/` to keep tool discovery consistent.
 - To override Minima's gem-based theme, place files with matching paths in the project root (`_layouts/`, `_includes/`, `_sass/`, `assets/main.scss`) — Jekyll prioritizes project files over the gem's bundled versions.
 - The planned "Writing voice" skill referenced in the first blog post does not yet exist — when matching the author's tone without it, read existing posts for voice calibration (conversational, direct, self-aware, not over-polished).
+- Draft source materials (e.g., PDFs exported from Medium) in `_drafts/` preserve embedded hyperlinks that get stripped in plain-text copies — `pymupdf` can extract them programmatically.
+- Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
