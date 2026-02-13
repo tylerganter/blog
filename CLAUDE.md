@@ -46,3 +46,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - The `ruby/setup-ruby` action requires an explicit `ruby-version` or a `.ruby-version` file — without either, the workflow fails immediately.
 - All Claude Code skills live under `.claude/skills/` — avoid placing them in alternative directories like `.agents/` to keep tool discovery consistent.
 - To override Minima's gem-based theme, place files with matching paths in the project root (`_layouts/`, `_includes/`, `_sass/`, `assets/main.scss`) — Jekyll prioritizes project files over the gem's bundled versions.
+- The planned "Writing voice" skill referenced in the first blog post does not yet exist — when matching the author's tone without it, read existing posts for voice calibration (conversational, direct, self-aware, not over-polished).
