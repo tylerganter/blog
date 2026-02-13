@@ -4,6 +4,8 @@ date: 2026-02-13
 tags: [climbing]
 ---
 
+> *🤖 Disclaimer: This post was written with AI assistance. Sections where the AI generated the majority of the content from my outline notes are colored accordingly: <span style="color: #b8d4b2;">AI-expanded text appears in this color.</span>*
+
 > **This is a draft.** I'm publishing it early because I'd rather get something useful out there than wait for perfection — but I want to be upfront: some sections still contain AI-generated slop and outright hallucinations that I haven't fully fact-checked or rewritten yet. I used AI to help me get the structure and initial content down, and while the core advice reflects my real experience, there are passages where the AI got way too confident about things I haven't personally verified. If something reads like generic filler or makes a suspiciously specific claim, trust your gut — it probably needs work. I'm actively revising this, so bear with me.
 
 In a way, I'm sorry you've arrived here. In another, I'm genuinely happy. I'm sorry you're dealing with elbow problems, but I'm thrilled you've made it to this page because I wrote it just for you. I want to provide you with useful resources and tips to get your elbows feeling strong and healthy, and to get you back to climbing. Most importantly, I want you to know that you are not alone, and you can beat this.
@@ -20,7 +22,7 @@ I am not a medical professional and I am by no means an elite climber, but along
 
 Before we dive in, let's make sure this article is for you. Do you have elbow tendonitis? The technical term is epicondylitis, specifically:
 
-- **Lateral epicondylitis** (tennis elbow) — pain on the outside of the elbow
+- **[Lateral epicondylitis](https://www.mayoclinic.org/diseases-conditions/tennis-elbow/symptoms-causes/syc-20351987)** (tennis elbow) — pain on the outside of the elbow
 - **Medial epicondylitis** (golfer's/climber's elbow) — pain on the inside of the elbow
 
 <!-- TODO: Image — anatomical diagram of medial and lateral epicondyles -->
@@ -35,7 +37,7 @@ If this is hitting close to home, welcome to the ever-growing mass of climbers t
 
 I had my first flare up about two years ago. I was doing laps on auto belay in the gym and my elbows just started feeling hot. I didn't think too much of it, but one or two sessions later I was lead climbing when this heat turned into pain that onset so aggressively I had to immediately come down. I was no stranger to injury, having had surgeries on a torn rotator cuff and twice on a torn ACL, but this was different.
 
-I went to a doctor and had some other nagging issues diagnosed while I was there. As it turned out I had lateral epicondylitis in both elbows, Dupuytren's contracture in both hands, and a ganglion cyst on the PIP joint of my left index finger. I was instructed to immediately stop climbing, and after speaking with some other climbers I was told to get ready for months — or even years — without climbing. That elbow tendonitis could be the defining ceiling to my climbing performance.
+I went to a doctor and had some other nagging issues diagnosed while I was there. As it turned out I had lateral epicondylitis in both elbows, [Dupuytren's contracture](https://www.mayoclinic.org/diseases-conditions/dupuytrens-contracture/symptoms-causes/syc-20371943) in both hands, and a [ganglion cyst](https://www.mayoclinic.org/diseases-conditions/ganglion-cyst/symptoms-causes/syc-20351156) on the PIP joint of my left index finger. I was instructed to immediately stop climbing, and after speaking with some other climbers I was told to get ready for months — or even years — without climbing. That elbow tendonitis could be the defining ceiling to my climbing performance.
 
 <!-- TODO: Image — photos of injuries (Dupuytren's contracture, ganglion cyst) -->
 
@@ -63,7 +65,7 @@ You're going to need to educate yourself. A lot. You're going to have to get fam
 
 Sorry to break it to you, but you cannot cure tendonitis after reading one article. Sure, I'll try to lay down as much as I can to get you started, but really, this is a continuous journey. The great news is that if you are persistent, you can continue to enjoy rock climbing throughout your entire life.
 
-And this isn't just advice for amateurs. Sam Elias had just put down a 5.14c before he got injured and realized he needed to go on a "knowledge quest."
+And this isn't just advice for amateurs. [Sam Elias had just put down a 5.14c before he got injured and realized he needed to go on a "knowledge quest."](https://www.grassrootsphysicaltherapy.com/physical-therapy-treatment/2019/10/30/hang-right-part-4-the-knowledge-quest-lesson-1)
 
 If there is one thing I could leave you with, it is the hope and excitement to start this knowledge quest — to learn how to simultaneously take care of your body and reach your potential. The rest of this article could effectively be considered a jump start on your journey.
 
@@ -81,13 +83,13 @@ I know. I get it... but still, I think lists are helpful, so I made one.
 **Educate yourself.** The more the better. Read books. Listen to podcasts. Get on YouTube. Talk to climbers. Anything you can learn about anatomy, physical training, injury prevention, and all of these things in the context of climbing. But don't limit yourself to climbing resources — there's a wealth of knowledge about general fitness and mobility training, patterns and good practices to be observed. Just be careful taking tried-and-true strategies for large muscle groups and applying them to your fingers.
 
 ![Training load diagram by @john_kettle_climbing showing the spectrum from detraining through maintenance and adaptive doses up to injury/regression]({{ site.baseurl }}/assets/images/elbow-tendonitis/training-load-diagram.png)
-*Credit: [@john_kettle_climbing](https://www.instagram.com/john_kettle_climbing/) — read his description in the link!*
+*Credit: [@john_kettle_climbing](https://www.instagram.com/p/CJjLlGEju9I/) — read his description in the link!*
 
 **Structure your training.** The aim of the game is to stay in the sweet spot between detraining and injury. This is going to take a lot of trial and error, but you simply cannot afford not to start using periodized training programs. More on this below.
 
 **Perform supplemental exercises.** If longevity is the goal, supplemental exercises can be assumed mandatory. I break these down into two subcategories: injury prevention and base fitness. There is a lot of talk out there about antagonist exercises, but as far as I'm concerned, these can just be bunched into the base fitness category. More on this below.
 
-**Know your body.** Do you know the science of swimology? It is one thing to study, and another to experience. Monitor your body day-to-day. Massage and observe where you are sore. Learn the difference between an acceptable level of discomfort and a level that indicates something is not well.
+**Know your body.** Do you know the [science of swimology](https://www.youtube.com/watch?v=stjeS6TRSPo&t=36s)? It is one thing to study, and another to experience. Monitor your body day-to-day. Massage and observe where you are sore. Learn the difference between an acceptable level of discomfort and a level that indicates something is not well.
 
 By now you may have noticed that all of these "big four" are continued practices. None of them stop when tendonitis eases up. Of course there is ebb and flow, times when we are more or less disciplined, but each of these is something to pursue for a lifetime.
 
@@ -161,23 +163,23 @@ There is so much to learn here, but as an example, the Rock Climber's Training M
 
 Rick Richey with the National Academy of Sports Medicine (NASM) has a great podcast series to get your brain crunching:
 
-- *Exercise Programming and Periodization*
-- *More on Exercise Periodization and Programming*
-- *Even More on Exercise Periodization and Programming*
+- [*Exercise Programming and Periodization*](https://www.youtube.com/watch?v=uVMoYfK7mEw&t=663s)
+- [*More on Exercise Periodization and Programming*](https://www.youtube.com/watch?v=rZWIuoKtPV0)
+- [*Even More on Exercise Periodization and Programming*](https://www.youtube.com/watch?v=PcCP04M-XWI&t=901s)
 
 Where should you start? There are a lot of resources out there. While I don't want to imply that in the long term it's necessary to follow a strict program, you'd do well to follow one for at least a couple macro-cycles. (A macro-cycle is the months-long program broken into multi-week meso-cycles and day-to-day micro-cycles.)
 
-**RCTM:** The Anderson brothers' *Rock Climber's Training Manual* (RCTM) is an excellent resource and particularly something I'd recommend for beginners as it is very structured. By this point I've memorized that page 184 has the example training programs mapped out day by day for both beginner and advanced trainees. This book is dense, but each phase-specific chapter starts with a technical background section that can be skipped if you just want the exercises, and you'll have plenty of time to read each chapter before that particular phase begins.
+**[RCTM](https://rockclimberstrainingmanual.com/):** The Anderson brothers' *Rock Climber's Training Manual* (RCTM) is an excellent resource and particularly something I'd recommend for beginners as it is very structured. By this point I've memorized that page 184 has the example training programs mapped out day by day for both beginner and advanced trainees. This book is dense, but each phase-specific chapter starts with a technical background section that can be skipped if you just want the exercises, and you'll have plenty of time to read each chapter before that particular phase begins.
 
-**NASM OPT Model:** The National Academy of Sports Medicine's Optimal Performance Training (OPT) Model is a framework for periodizing general fitness. It's a bit gimmicky in that a lot of the resources try to sell you on personal trainer certification, but nonetheless it's a good model. If nothing else, refer to the "resistance" column of tables 14.7--14.11 in their study guide. I like using these guidelines for reps, sets, tempo, and rest interval for supplemental exercises accompanying a climbing phase. For example, pair OPT's stabilization endurance exercises with RCTM's base fitness phase, and OPT's hypertrophy, max strength, and power exercises with RCTM's strength, power, and power-endurance phases, respectively.
+**[NASM OPT Model](https://www.nasm.org/certified-personal-trainer/the-opt-model):** The National Academy of Sports Medicine's Optimal Performance Training (OPT) Model is a framework for periodizing general fitness. It's a bit gimmicky in that a lot of the resources try to sell you on personal trainer certification, but nonetheless it's a good model. If nothing else, refer to the "resistance" column of tables 14.7--14.11 in [this study guide](http://www.thehealthygamer.com/2013/06/12/nasm-study-guide-chapter-14-integrated-program-design-and-the-optimum-performance-training-opt-model/). I like using these guidelines for reps, sets, tempo, and rest interval for supplemental exercises accompanying a climbing phase. For example, pair OPT's stabilization endurance exercises with RCTM's base fitness phase, and OPT's hypertrophy, max strength, and power exercises with RCTM's strength, power, and power-endurance phases, respectively.
 
-**T4C:** I haven't yet delved into Eric Horst's *Training for Climbing* (T4C), but I would say it is the leading competitor to RCTM. Not that you should choose one over the other when you can read them both. The programs are generally shorter, spanning only ~6--10 weeks in contrast to RCTM's 17-week program, and Horst talks about his programs as building blocks that can be adjusted and stacked together to fit your schedule. I'd recommend reading this after RCTM because of the higher degree of flexibility — the onus is on you.
+**[T4C](https://trainingforclimbing.com/buy-books/training-for-climbing-3rd-edition-2016/):** I haven't yet delved into Eric Horst's *Training for Climbing* (T4C), but I would say it is the leading competitor to RCTM. Not that you should choose one over the other when you can read them both. The programs are generally shorter, spanning only ~6--10 weeks in contrast to RCTM's 17-week program, and Horst talks about his programs as building blocks that can be adjusted and stacked together to fit your schedule. I'd recommend reading this after RCTM because of the higher degree of flexibility — the onus is on you.
 
 Some other resources I've been looking forward to exploring:
 
-- **Lattice Training** — They offer more than just awesome YouTube videos. They have personalized training programs at affordable prices. I played around with the Crimpd app and was a bit disappointed with the lack of customization (e.g., ARC training sessions had to be exactly 20 minutes), but I still look forward to going all in on a Lattice program for a few months.
-- **ClimberFit** — I don't know much about Alex Puccio's 6-week program, but I'm curious to try an app-based program. Frankly, I'll take any advice the Pooch has to offer.
-- **The Climbing Bible** — A relatively new entry in the running for ultimate comprehensive training guide, published in Fall 2020. I look forward to adding this to the library.
+- **[Lattice Training](https://latticetraining.com/)** — They offer more than just awesome YouTube videos. They have personalized training programs at affordable prices. I played around with the [Crimpd](https://www.crimpd.com/) app and was a bit disappointed with the lack of customization (e.g., ARC training sessions had to be exactly 20 minutes), but I still look forward to going all in on a Lattice program for a few months.
+- **[ClimberFit](https://www.macrofit.co/climberfit/)** — I don't know much about Alex Puccio's 6-week program, but I'm curious to try an app-based program. Frankly, I'll take any advice the Pooch has to offer.
+- **[The Climbing Bible](https://www.v-publishing.co.uk/books/climbing/climbing-the-climbing-bible/)** — A relatively new entry in the running for ultimate comprehensive training guide, published in Fall 2020. I look forward to adding this to the library.
 
 Looking for something more intimate? Go to your gym. Here in Albuquerque there are bouldering training programs for adults, as well as personal trainers for those who are interested.
 
@@ -192,9 +194,9 @@ You should get back to climbing sooner rather than later, but there are some add
 
 Warming up is essential to reducing risk of injury. Personally, I've been preferring to warm up on the ground — on a mat and with exercise bands. But many swear by warming up on easy climbs, and ideally you should probably do both. Particularly in cold weather, it's important to do one or two easy climbs to get blood flowing through the upper extremities. Biking to the gym and hiking to the crag don't count. You have to warm up the upper body.
 
-As far as warming up on the ground, at minimum you should do one exercise for each of the fingers, wrists, shoulders, and back. Open and close the hands rapidly for 30 seconds or so to get some blood flowing in the forearms. Do some wrist circles. Shoulder dislocates with an exercise band (or a stick clip) is a great way to start to open up the shoulder. Get creative with it — John Kettle has a great video if you need inspiration. Finally, get your back working with some band-assisted I's, Y's, and T's. Be sure to keep a hollow body with the core engaged and the chest not popping out.
+As far as warming up on the ground, at minimum you should do one exercise for each of the fingers, wrists, shoulders, and back. Open and close the hands rapidly for 30 seconds or so to get some blood flowing in the forearms. Do some wrist circles. Shoulder dislocates with an exercise band (or a stick clip) is a great way to start to open up the shoulder. Get creative with it — John Kettle has a [great video](https://www.instagram.com/p/B4955MOjdRS/) if you need inspiration. Finally, get your back working with some band-assisted I's, Y's, and T's. Be sure to keep a [hollow body](https://bodybuilding-wizard.com/hollow-body-hold-position/) with the core engaged and the chest not popping out.
 
-Grassroots Self Treatment has an excellent Climber's Kit that is well worth the money. The warm-up section covers a great routine to use before climbing, including the I's, Y's, and T's I just mentioned. Tom Merrick also has a really great Climber's Mobility Routine. I prefer to pick and choose a selection of exercises to use for warm-up, such as the open- and closed-hand wrist circles.
+[Grassroots Self Treatment](https://www.grassrootsselftreatment.com/products/climbing-cross-training-exercises) has an excellent Climber's Kit that is well worth the money. The warm-up section covers a great routine to use before climbing, including the I's, Y's, and T's I just mentioned. Tom Merrick also has a really great [Climber's Mobility Routine](https://www.youtube.com/watch?v=x-1OJW3OMb4&t=749s). I prefer to pick and choose a selection of exercises to use for warm-up, such as the open- and closed-hand wrist circles.
 
 ### During
 
@@ -203,13 +205,17 @@ If your elbows are acting up, there's no amount of adapting your movement on the
 - **Keep your elbows tucked in.** Think about keeping the rotator cuff engaged such that the elbow crease opens outward (thumbs pointing up and out).
 - **Don't hyperextend the elbows.** Straight arms relieve unnecessary bicep tension, but a slight bend will ease the stress on your elbows.
 - **Pull your shoulders down** away from your ears, but without excessively pulling the shoulder blades towards each other.
-- **Maintain good body tension** with the core engaged in a hollow body position, especially on overhang.
+- **Maintain good body tension** with the core engaged in a [hollow body](https://bodybuilding-wizard.com/hollow-body-hold-position/) position, especially on overhang.
 - **Vary your grips** — especially if you've developed an unhealthy preference for crimping everything.
 - **If you start to chicken wing, get off the wall immediately.**
+
+Resources on how to hang right, such as [this one](https://www.youtube.com/watch?v=pTJudXtucpE), are a good starting point.
 
 There's a common misconception that endurance climbing is about economy of movement, and therefore all muscles should be maximally relaxed at all times. While saving energy is crucial to performance on endurance routes, it's important to consider *which* muscles are relaxed. Think about how you can use good body tension with the larger muscle groups to keep from making risky movements and giving up on proper form. Generally speaking, as you learn more about proper form during supplemental exercises, try to carry that over to the wall.
 
 ### After
+
+<div style="color: #b8d4b2;" markdown="1">
 
 Cooling down is just as important as warming up, and it's the one that's easiest to skip. The goal is to bring blood flow back to the tissues that just took a beating and help flush out the metabolic byproducts.
 
@@ -217,11 +223,15 @@ Cooling down is just as important as warming up, and it's the one that's easiest
 - **Light stretching** — nothing aggressive, just enough to maintain range of motion while the muscles are still warm.
 - **Massage your forearms** — even a quick 2--3 minute session with your thumbs (or an Armaid if you have one) can make a noticeable difference in how you feel the next day.
 
+</div>
+
 ## Supplemental Exercise
 
 As I mentioned before, I break supplemental exercises into two categories: injury prevention and base fitness. Assuming pull exercises are paired with push exercises, as climbers there are specific risk areas — predominantly the pulling muscles of the upper body, from the back through the shoulder complex to the elbows, forearms, and fingers.
 
 ### Injury Prevention
+
+<div style="color: #b8d4b2;" markdown="1">
 
 These exercises target the specific weak links in the kinetic chain that make climbers prone to elbow issues. The key areas:
 
@@ -231,10 +241,14 @@ These exercises target the specific weak links in the kinetic chain that make cl
 - **Pronator exercises** — Often overlooked, but the pronators share real estate with the flexor group near the medial epicondyle. Strengthening them can reduce strain at the attachment point.
 - **Collagen-stimulating exercises** — Eric Horst recommends light, high-rep finger and wrist exercises done 15--30 minutes after taking collagen peptides, timed to coincide with peak collagen availability. The idea is that tendons have limited blood supply (relying on synovial fluid), so you need to specifically stimulate collagen synthesis at the site. I've been experimenting with a modified version using a GripSaver Plus — the verdict is still out, but the logic is sound.
 - **Isometric pinches and bicep curls** — Isometric contractions (holding a static position without joint movement) are a well-established rehab tool for tendons. They can help manage pain and begin loading the tendon without the eccentric/concentric stress. Pinch blocks for the fingers, and static holds at 90 degrees for the biceps.
-- **Grassroots Self Treatment Climber's Kit — Strength section** — Esther Smith's program is excellent and purpose-built for climbers. The strength exercises specifically target the upstream mobility and stability issues that lead to overuse injuries downstream.
+- **[Grassroots Self Treatment](https://www.grassrootsselftreatment.com/products/climbing-cross-training-exercises) Climber's Kit — Strength section** — Esther Smith's program is excellent and purpose-built for climbers. The strength exercises specifically target the upstream mobility and stability issues that lead to overuse injuries downstream.
 - **The 3 sidelying exercises** — Sidelying external rotation, sidelying horizontal abduction, and sidelying forward flexion. These hit the rotator cuff and scapular stabilizers in positions that are hard to replicate standing.
 
+</div>
+
 ### Base Fitness
+
+<div style="color: #b8d4b2;" markdown="1">
 
 If you're only climbing and doing injury prevention work, you're missing a big piece of the puzzle. General strength conditioning reduces injury risk by building a more resilient body overall.
 
@@ -245,11 +259,13 @@ If you're only climbing and doing injury prevention work, you're missing a big p
 
 A couple of notes on supplemental exercise in general: be careful of elbow hyperextension, especially if you're hypermobile. Even exercises with "proper form" calling for locked elbows (like planche progressions) may need to be modified with a slight bend. And vary your tools — alternate between dumbbells, exercise bands, and bodyweight. Each loads the tissues slightly differently, which is exactly the kind of varied stimulus that promotes resilient tendons.
 
+</div>
+
 ## Other Practices
 
 ### Massaging
 
-If for nothing else, massaging the body is a crucial means of monitoring it. Take your thumb and poke around in your forearms and around your elbows. Get a foam roller and roll out the underarm and latissimus dorsi. How does this change day to day? From morning to evening?
+If for nothing else, massaging the body is a crucial means of monitoring it. Take your thumb and poke around in your forearms and around your elbows. Get a foam roller and roll out the underarm and [latissimus dorsi](https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle). How does this change day to day? From morning to evening?
 
 One word of caution: make sure you know the difference between a trigger point and a nerve. They can feel similar, but with practice there's definitely a difference. In particular, the radial nerve runs right along the medial epicondyle on the tricep region of the arm, so try not to dig into that.
 
@@ -258,7 +274,7 @@ One word of caution: make sure you know the difference between a trigger point a
 
 The budget tool for massaging the forearm is the thumb. If you want to get fancy, warm up some coconut oil or use massage oil.
 
-That said, if you're at all serious about climbing I would highly recommend just ponying up and buying an Armaid. It's worth the investment. Even if you're not suffering from elbow issues, the Armaid is a great tool for loosening up the forearm fascia while driving to the crag.
+That said, if you're at all serious about climbing I would highly recommend just ponying up and buying an [Armaid](https://www.armaid.com/products/armaid-1). It's worth the investment. Even if you're not suffering from elbow issues, the Armaid is a great tool for loosening up the forearm fascia while driving to the crag.
 
 Another option is a massage gun. They're getting affordable nowadays. Personally, I enjoy the gun, and it certainly hits differently than the Armaid, but if I had to choose one, the Armaid wins hands down.
 
@@ -266,12 +282,16 @@ Another option is a massage gun. They're getting affordable nowadays. Personally
 
 I'm putting this after massaging because, from experience, I haven't actually found elbow-specific stretches to be all that important. That said, there are some mobility practices worth incorporating:
 
+<div style="color: #b8d4b2;" markdown="1">
+
 - **Don't overdo the wrist stretches** — This is a common mistake. Aggressive wrist stretching can actually irritate the tendons further, especially during recovery. Gentle is the keyword.
-- **Grassroots Self Treatment Climber's Kit — Mobility section** — Esther Smith's mobility work is well-balanced and climber-specific.
-- **Tom Merrick's Climber's Mobility Routine** — Another great resource, though be cautious with the wrist-cranking portions if your elbows are sensitive.
+- **[Grassroots Self Treatment](https://www.grassrootsselftreatment.com/products/climbing-cross-training-exercises) Climber's Kit — Mobility section** — Esther Smith's mobility work is well-balanced and climber-specific.
+- **[Tom Merrick's Climber's Mobility Routine](https://www.youtube.com/watch?v=x-1OJW3OMb4&t=749s)** — Another great resource, though be cautious with the wrist-cranking portions if your elbows are sensitive.
 - **Radial nerve glides** — These can be very helpful if nerve tension is contributing to your symptoms. They're gentle movements that help the nerve slide through its surrounding tissues.
 - **Neck stretches (McKenzie method)** — I was skeptical, but there is a nerve connection between the neck and the forearm. Some climbers swear by this. For me, it helped temporarily but wasn't the silver bullet I was hoping for.
-- **Lattice Training's stretching protocols** — A solid general-purpose climbing stretch routine.
+- **[Lattice Training's](https://latticetraining.com/) stretching protocols** — A solid general-purpose climbing stretch routine.
+
+</div>
 
 ### Icing
 
@@ -286,7 +306,7 @@ Be sure to ice only as the final activity of the day, after any exercise, stretc
 ![Climbing on an overhanging wall at Maple Canyon, Utah]({{ site.baseurl }}/assets/images/elbow-tendonitis/overhanging-cliff-maple-canyon.jpg)
 *Maple Canyon, Utah — where an unexpected conversation changed my approach.*
 
-Last summer I was in Maple Canyon, Utah, and decided to hike up to the Pipe Dream Cave to check out the all-stars. At a lull between attempts on one of the center-cave lines, I asked a man in his 60s or 70s what his experience with elbow tendonitis was, and if he had any advice. He responded with a question: "What's the max amount of ibuprofen you can take in a day?"
+Last summer I was in Maple Canyon, Utah, and decided to hike up to the [Pipe Dream Cave](https://www.mountainproject.com/area/105739677/the-pipe-dream) to check out the all-stars. At a lull between attempts on one of the center-cave lines, I asked a man in his 60s or 70s what his experience with elbow tendonitis was, and if he had any advice. He responded with a question: "What's the max amount of ibuprofen you can take in a day?"
 
 I'd like to stress again that I am not a medical professional and none of these personal observations should be taken as formal advice.
 
@@ -312,7 +332,7 @@ Most workout days I make a post-workout whey protein shake and load it with gree
 
 As I mentioned, I've been experimenting with pre-workout collagen peptides, but it's difficult to say if they make any difference. From what I've read, it seems like it won't hurt — something that can't be said for many supplements.
 
-At the bottom of my list of recommendations: I've also been taking a daily fish oil supplement accompanied by a daily dose of skepticism.
+At the bottom of my list of recommendations: I've also been taking a daily [fish oil supplement](https://www.livestrong.com/article/89893-fish-oil-tendonitis/) accompanied by a daily dose of skepticism.
 
 ### Acupuncture and Dry-Needling
 
@@ -320,18 +340,24 @@ I've yet to really experiment with either of these methods. I did have a dry-nee
 
 ### Taping and Braces
 
-I haven't really tried taping, but there are sources that recommend both rigid tape and K-tape. I did use tennis elbow braces during the early acute phase. They were particularly valuable with typing, since that was something I couldn't easily take a break from.
+I haven't really tried taping, but there are sources that recommend both rigid tape and K-tape. I did use [tennis elbow braces](https://www.amazon.com/Tomight-Elbow-Brace-Tennis-Compression/dp/B01M0F5IA4) during the early acute phase. They were particularly valuable with typing, since that was something I couldn't easily take a break from.
 
 In the acute phase of epicondylitis, these strategies can provide some relief while climbing, but in the category of "relief while climbing" I had better luck with NSAIDs.
 
 ### Rest
+
+<div style="color: #b8d4b2;" markdown="1">
 
 Rest is the easiest thing to recommend and the hardest thing to actually do. Two things to keep in mind:
 
 - **Enough rest days in a week.** If you're climbing three days a week, make sure they're not three days in a row. Your tendons need recovery time between sessions, and unlike muscles, tendons are slow to heal and slow to adapt. Two to three climbing days per week with rest days between them is a good starting point during recovery.
 - **Take a week or two off a few times a year.** Periodized programs usually build this in, but if you're not following one, schedule it yourself. These rest periods give the tendons a chance to fully catch up on repair. I know it feels like you're losing fitness — and you are, a little — but the long-term payoff of healthy tendons far outweighs a minor detraining blip.
 
+</div>
+
 ## Conclusion
+
+<div style="color: #b8d4b2;" markdown="1">
 
 If I'm being honest, the root of my tendonitis was indoor over-training during those Michigan winters — high volume, no structure, all enthusiasm and no planning. It took me a long time to admit that.
 
@@ -345,6 +371,8 @@ A few final thoughts:
 
 I'm not sponsored by any of the products or resources mentioned here. Maybe I should be? But honestly, I'd rather this remain an unbiased account. Take what's useful, discard what isn't, and remember that the goal isn't to follow some perfect protocol — it's to develop the knowledge and body awareness to take care of yourself for a lifetime of climbing.
 
+</div>
+
 I'd love to know if you found this useful.
 
 ## Educational Resources
@@ -356,5 +384,3 @@ I'd love to know if you found this useful.
 - [Esther Smith on Elbows — TrainingBeta Podcast](https://www.trainingbeta.com/media/esther-smith-elbows/)
 
 ---
-
-*This post was written with AI assistance.*

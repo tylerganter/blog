@@ -4,6 +4,12 @@ date: 2026-02-12
 tags: [meta, ai]
 ---
 
+*🤖 Disclaimer: This post was AI-generated. <span style="color: #b8d4b2;">Text that is predominantly AI-written will appear in this color.</span>*
+
+---
+
+<div style="color: #b8d4b2;" markdown="1">
+
 This blog exists because I didn't want to pay for another domain.
 
 I already have [tylerganter.com](https://tylerganter.com) for my portfolio and [gnarwall.org](https://gnarwall.org) for a travel blog. I wanted a place to write about... everything else. Ideas about AI, climbing and physical therapy notes, travel, opinions I haven't fully stress-tested yet. A personal blog. But I wasn't about to buy a third domain for it.
@@ -62,4 +68,4 @@ The whole thing optimizes for one thing: **low friction for writing**. I open VS
 
 Anyway. First post. The plan is to write about AI, climbing, physical therapy, travel, and whatever else I feel like. No particular theme. No schedule. Just a place to put things.
 
-*This post was written with AI assistance.*
+</div>
