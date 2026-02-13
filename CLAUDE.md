@@ -31,6 +31,8 @@ For the full workflow (branching, committing, PRs, syncing), see the [github ski
 
 The dev container runs with a **network firewall** that restricts outbound traffic to GitHub, Anthropic, npm/rubygems, and VS Code marketplace only. See [.devcontainer/README.md](.devcontainer/README.md) for container setup and [init-firewall.sh](.devcontainer/init-firewall.sh) for the full allowlist.
 
+**Python packages**: Use `uv` (installed in the container) for Python package management — e.g., `uv pip install pyyaml`. There is no system `pip`.
+
 ## Deployment
 
 The site is deployed via **GitHub Actions** (`.github/workflows/pages.yml`) — on every push to `main`, the workflow builds with Jekyll and deploys via `actions/deploy-pages`. Build artifacts (`_site/`, `docs/`) are gitignored and never committed.
