@@ -10,7 +10,7 @@ permalink: /about/
 
 <div style="color: #b8d4b2;" markdown="1">
 
-<img src="{{ '/assets/images/tganter_ghibli.png' | relative_url }}" alt="Tyler Ganter, Studio Ghibli style" style="width: 150px; border-radius: 50%; float: right; margin: 0 0 1em 1.5em;">
+<img src="{{ '/assets/images/tganter_ghibli.jpg' | relative_url }}" alt="Tyler Ganter, Studio Ghibli style" style="width: 150px; border-radius: 50%; float: right; margin: 0 0 1em 1.5em;">
 
 Hi, I'm Tyler. I'm an AI engineer based in ~~Los Angeles~~ *(AI hallucination)* Albuquerque.
 
