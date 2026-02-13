@@ -75,7 +75,7 @@ blockquote {
   margin: $sp-8 0;
   padding: $sp-4 $sp-6;
   border-left: 3px solid $accent-purple;
-  background-color: rgba($accent-purple, 0.04);
+  background-color: rgba($accent-purple, 0.06);
   border-radius: 0 $radius-md $radius-md 0;
   color: $text-secondary;
   font-style: italic;
@@ -83,6 +83,16 @@ blockquote {
   p:last-child {
     margin-bottom: 0;
   }
+}
+
+// Strong / emphasis
+strong, b {
+  font-weight: 700;
+  color: $text-primary;
+}
+
+em, i {
+  color: $text-secondary;
 }
 
 // Lists
@@ -110,12 +120,12 @@ table {
   }
 
   th {
-    background-color: $border-light;
+    background-color: $bg-elevated;
     font-weight: 600;
   }
 
   tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(255, 255, 255, 0.02);
   }
 }
 
@@ -124,9 +134,9 @@ code {
   font-family: $font-mono;
   font-size: 0.85em;
   padding: 0.2em 0.4em;
-  background-color: rgba($accent-purple, 0.08);
+  background-color: rgba($accent-purple, 0.15);
   border-radius: $radius-sm;
-  color: $text-primary;
+  color: $accent-purple;
 }
 
 // Code blocks
@@ -151,6 +161,6 @@ pre {
 
 // Text selection
 ::selection {
-  background: rgba($color-link, 0.15);
-  color: $text-primary;
+  background: rgba($color-link, 0.3);
+  color: #ffffff;
 }

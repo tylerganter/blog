@@ -6,7 +6,7 @@ tags: [meta, ai]
 
 This blog exists because I didn't want to pay for another domain.
 
-I already have [tylerganter.com](https://tylerganter.com) for my portfolio and [gnarwall.org](https://gnarwall.org) for a travel blog. I wanted a place to write about... everything else. AI stuff I'm thinking about, climbing and physical therapy notes, travel, half-baked opinions, whatever. A personal blog in the old-school sense. But I wasn't about to buy a third domain for it.
+I already have [tylerganter.com](https://tylerganter.com) for my portfolio and [gnarwall.org](https://gnarwall.org) for a travel blog. I wanted a place to write about... everything else. Ideas about AI, climbing and physical therapy notes, travel, opinions I haven't fully stress-tested yet. A personal blog. But I wasn't about to buy a third domain for it.
 
 Turns out, if you're already hosting on GitHub Pages with a custom domain, any new repo you create with Pages enabled just shows up at a subpath. My travel blog already works at `tylerganter.com/gnarwall/`. So this blog lives at `tylerganter.com/blog/`. No DNS changes, no new hosting, no new bills. Just a new repo.
 

@@ -282,16 +282,30 @@
 }
 
 .post-header {
-  margin-bottom: $sp-10;
-  padding-bottom: $sp-8;
+  margin-bottom: $sp-12;
+  padding-bottom: $sp-10;
   border-bottom: 1px solid $border-color;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: $gradient-harmonic;
+    border-radius: 2px;
+  }
 }
 
 .post-header .post-title {
   font-size: $text-3xl;
   font-weight: 800;
-  margin: 0 0 $sp-4 0;
+  margin: 0 0 $sp-6 0;
   line-height: $leading-tight;
+  color: #ffffff;
+  letter-spacing: -0.02em;
 }
 
 .post-meta {
@@ -338,29 +352,209 @@
 
 // Post body typography
 .post-content {
+  font-size: $text-base;
+  line-height: $leading-normal;
+  color: $text-secondary;
+
+  // ---- Lede paragraph (first paragraph before any heading) ----
+  > p:first-child {
+    font-size: $text-lg;
+    line-height: 1.6;
+    color: $text-primary;
+    margin-bottom: $sp-8;
+  }
+
+  > p {
+    margin-bottom: $sp-6;
+  }
+
+  // ---- Headings ----
   h2 {
-    margin-top: $sp-12;
-    padding-top: $sp-6;
-    border-top: 1px solid $border-light;
-  }
+    font-size: $text-2xl;
+    font-weight: 800;
+    margin-top: $sp-16;
+    margin-bottom: $sp-6;
+    padding-top: $sp-8;
+    color: $text-primary;
+    position: relative;
 
-  h3 {
-    margin-top: $sp-10;
-  }
-
-  a {
-    text-decoration: underline;
-    text-decoration-color: rgba($color-link, 0.3);
-    text-underline-offset: 2px;
-
-    &:hover {
-      text-decoration-color: $color-link;
+    &::before {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: $gradient-harmonic;
+      margin-bottom: $sp-6;
+      border-radius: 2px;
     }
   }
 
+  h3 {
+    font-size: $text-xl;
+    font-weight: 700;
+    margin-top: $sp-10;
+    margin-bottom: $sp-4;
+    color: $text-primary;
+    padding-left: $sp-4;
+    border-left: 3px solid $accent-cyan;
+  }
+
+  h4 {
+    font-size: $text-lg;
+    font-weight: 600;
+    margin-top: $sp-8;
+    margin-bottom: $sp-3;
+    color: $text-primary;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: $text-sm;
+  }
+
+  // ---- Links ----
+  a {
+    color: $color-link;
+    text-decoration: underline;
+    text-decoration-color: rgba($color-link, 0.3);
+    text-underline-offset: 3px;
+    transition: text-decoration-color $transition, color $transition;
+
+    &:hover {
+      color: $color-link-hover;
+      text-decoration-color: $color-link-hover;
+    }
+  }
+
+  // ---- Lists ----
+  ul {
+    margin-bottom: $sp-8;
+    padding-left: 0;
+    list-style: none;
+
+    > li {
+      position: relative;
+      padding-left: $sp-6;
+      margin-bottom: $sp-4;
+      line-height: $leading-normal;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.7em;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: $accent-purple;
+      }
+    }
+
+    // Nested lists
+    ul {
+      margin-top: $sp-3;
+      margin-bottom: $sp-2;
+
+      > li::before {
+        background: transparent;
+        border: 1.5px solid $accent-purple;
+      }
+    }
+  }
+
+  ol {
+    margin-bottom: $sp-8;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: ol-counter;
+
+    > li {
+      position: relative;
+      padding-left: $sp-10;
+      margin-bottom: $sp-6;
+      line-height: $leading-normal;
+      counter-increment: ol-counter;
+
+      &::before {
+        content: counter(ol-counter);
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: $font-mono;
+        font-size: $text-sm;
+        font-weight: 700;
+        color: $accent-cyan;
+        background: rgba($accent-cyan, 0.1);
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  // Bold lead-ins in list items
+  li > strong:first-child {
+    color: $text-primary;
+    font-weight: 700;
+  }
+
+  // ---- Strong text ----
+  strong {
+    color: $text-primary;
+    font-weight: 700;
+  }
+
+  // ---- Emphasis ----
+  em {
+    color: $text-primary;
+    font-style: italic;
+  }
+
+  // ---- Images ----
   img {
-    margin: $sp-8 auto;
-    box-shadow: $shadow-md;
+    margin: $sp-10 auto;
+    border-radius: $radius-md;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid $border-color;
+  }
+
+  // ---- Blockquotes ----
+  blockquote {
+    margin: $sp-10 0;
+    padding: $sp-6 $sp-8;
+    border-left: 3px solid $accent-purple;
+    background: rgba($accent-purple, 0.06);
+    border-radius: 0 $radius-md $radius-md 0;
+
+    p {
+      color: $text-secondary;
+      font-style: italic;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // ---- Code blocks ----
+  pre {
+    margin: $sp-10 0;
+    border: 1px solid $border-color;
+  }
+
+  // ---- Horizontal rules ----
+  hr {
+    border: none;
+    height: 3px;
+    background: $gradient-harmonic;
+    margin: $sp-12 0;
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+
+  > *:first-child {
+    margin-top: 0;
   }
 
   .footnotes {
@@ -368,25 +562,31 @@
     padding-top: $sp-8;
     border-top: 1px solid $border-color;
     font-size: $text-sm;
-    color: $text-secondary;
+    color: $text-muted;
   }
 }
 
 // Post footer
 .post-footer {
-  margin-top: $sp-12;
+  margin-top: $sp-16;
   padding-top: $sp-8;
   border-top: 1px solid $border-color;
 }
 
 .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: $sp-2;
   font-size: $text-sm;
   font-weight: 500;
   color: $text-muted;
-  transition: color $transition;
+  padding: $sp-3 $sp-4;
+  border-radius: $radius-md;
+  transition: all $transition;
 
   &:hover {
     color: $color-link;
+    background: $color-link-light;
   }
 }
 
