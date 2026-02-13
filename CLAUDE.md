@@ -72,6 +72,10 @@ For the full workflow (branching, committing, PRs, syncing), see the [git-github
 
 The dev container runs with a **network firewall** that restricts outbound traffic to GitHub, Anthropic, npm/rubygems, and VS Code marketplace only. See [.devcontainer/README.md](.devcontainer/README.md) for container setup and [init-firewall.sh](.devcontainer/init-firewall.sh) for the full allowlist.
 
+## Lessons Learned
+
+- VS Code/Cursor inject a credential helper into `/etc/gitconfig` inside devcontainers; `GIT_CONFIG_NOSYSTEM=1` in `containerEnv` prevents this from overriding `gh auth git-credential`.
+
 ## Deployment
 
 The site is deployed via **GitHub Actions** (`.github/workflows/pages.yml`) — on every push to `main`, the workflow builds with Jekyll and deploys via `actions/deploy-pages`. After merging the migration PR, switch the Pages source with: `gh api repos/tylerganter/blog/pages --method PUT --field build_type=workflow`. Build artifacts (`_site/`, `docs/`) are gitignored and never committed.

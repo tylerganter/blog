@@ -65,6 +65,7 @@ See [GITHUB.md](./GITHUB.md) for details on the authentication setup and securit
 - **Container won't start**: Make sure Docker Desktop is running. Check `docker ps` to see if an old container is stuck.
 - **`bundle install` fails**: The container has `ruby-full`, `build-essential`, and `zlib1g-dev` pre-installed. If a native gem still fails, you may need to add its system dependency to the Dockerfile and rebuild.
 - **Claude can't reach the API**: The container runs a firewall that only allows traffic to `api.anthropic.com`, GitHub, npm, rubygems, and a few other domains. Verify with `curl -I https://api.anthropic.com`.
+- **`git push` fails with credential errors**: VS Code/Cursor inject their own credential helper into `/etc/gitconfig` (system-level), which intercepts `gh auth git-credential`. The container sets `GIT_CONFIG_NOSYSTEM=1` in `containerEnv` to skip the system gitconfig. If you're hitting credential issues, verify this env var is set: `echo $GIT_CONFIG_NOSYSTEM`.
 - **Port 4000 not accessible**: The container maps `-p 4000:4000`. Make sure nothing else is using that port on your host.
 
 ## Notes
