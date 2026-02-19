@@ -2,6 +2,7 @@
 title: "Proof of Concept"
 date: 2026-02-13
 tags: [meta, ai]
+description: "A one-sentence phone prompt, an async Claude Code session, and a blog post that committed itself — plus the part where PR creation broke because the web environment isn't the devcontainer."
 ---
 
 *🤖 Disclaimer: This post was written entirely by AI. <span style="color: #b8d4b2;">Text that is predominantly AI-written will appear in this color.</span>*
