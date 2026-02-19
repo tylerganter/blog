@@ -55,3 +55,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - Draft source materials (e.g., PDFs exported from Medium) in `_drafts/` preserve embedded hyperlinks that get stripped in plain-text copies — `pymupdf` can extract them programmatically.
 - Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
 - Claude Code web sessions can push to branches but cannot create PRs — the GitHub App private key only exists in the devcontainer's Docker volume, not in Anthropic's hosted environment.
+- When splitting a long post into a multi-part series, use Jekyll's `{% post_url %}` tag (e.g., `{% post_url 2026-02-13-slug-part-2 %}`) for cross-linking between parts — this ensures links stay valid even if permalink structure changes.
