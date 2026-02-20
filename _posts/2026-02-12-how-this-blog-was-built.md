@@ -2,6 +2,7 @@
 title: "How This Blog Was Built"
 date: 2026-02-12
 tags: [meta, ai]
+description: "Jekyll, GitHub Pages, and a sandboxed devcontainer where an AI agent can commit and open PRs on feature branches — while a human keeps approval authority over main."
 ---
 
 *🤖 Disclaimer: This post was AI-generated. <span style="color: #b8d4b2;">Text that is predominantly AI-written will appear in this color.</span>*

@@ -2,6 +2,7 @@
 title: "A Climber's Guide to Beating Elbow Tendonitis (Part 3)"
 date: 2026-02-13
 tags: [climbing]
+description: "Supplemental exercises, massage, stretching, icing, NSAIDs, and the rest of the recovery toolkit."
 ---
 
 *This is Part 3 of a 3-part series. [Part 1]({% post_url 2026-02-13-climbers-guide-to-beating-elbow-tendonitis-part-1 %}) covers diagnosis, why you shouldn't lose hope, and the high-level framework for recovery. [Part 2]({% post_url 2026-02-13-climbers-guide-to-beating-elbow-tendonitis-part-2 %}) covers elbow anatomy, the acute phase, and how to structure your training and climbing.*

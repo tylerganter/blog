@@ -15,7 +15,7 @@ Personal blog built with Jekyll, served via GitHub Pages at `tylerganter.com/blo
 
 ### Creating a New Post
 
-Posts go in `_posts/` as `YYYY-MM-DD-title-slug.md` with frontmatter: `title`, `date`, `tags`.
+Posts go in `_posts/` as `YYYY-MM-DD-title-slug.md` with frontmatter: `title`, `date`, `tags`, `description`.
 
 ## Git & GitHub Workflow
 
@@ -56,3 +56,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
 - Claude Code web sessions can push to branches but cannot create PRs — the GitHub App private key only exists in the devcontainer's Docker volume, not in Anthropic's hosted environment.
 - When splitting a long post into a multi-part series, use Jekyll's `{% post_url %}` tag (e.g., `{% post_url 2026-02-13-slug-part-2 %}`) for cross-linking between parts — this ensures links stay valid even if permalink structure changes.
+- Posts use a `description` frontmatter field for homepage card text (and SEO via `jekyll-seo-tag`); the homepage falls back to `post.excerpt` if `description` is absent.

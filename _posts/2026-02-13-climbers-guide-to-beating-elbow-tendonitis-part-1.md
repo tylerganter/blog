@@ -2,6 +2,7 @@
 title: "A Climber's Guide to Beating Elbow Tendonitis (Part 1)"
 date: 2026-02-13
 tags: [climbing]
+description: "A personal account of recovering from epicondylitis — diagnosis, why you shouldn't lose hope, and the framework for beating it."
 ---
 
 > *🤖 Disclaimer: This post was written with AI assistance. Sections where the AI generated the majority of the content from my outline notes are colored accordingly: <span style="color: #b8d4b2;">AI-expanded text appears in this color.</span>*
