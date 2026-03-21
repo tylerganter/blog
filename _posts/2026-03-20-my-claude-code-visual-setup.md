@@ -9,13 +9,13 @@ I've been spending a lot of time in Claude Code lately. And somewhere between tw
 
 ## Ghostty, Full Screen, Splits Everywhere
 
-<span style="color: #b8d4b2;">I run [Ghostty](https://ghostty.org) full screen with splits — multiple Claude Code instances side by side, plus panes to watch files, run servers, or check logs. Splits come and go constantly.</span>
+I run [Ghostty](https://ghostty.org) full screen with splits — multiple Claude Code instances side by side, plus panes to watch files, run servers, or check logs. Splits come and go constantly.
 
-<span style="color: #b8d4b2;">One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, then pop back out.</span>
+One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, then pop back out.
 
 ## Color-Coded Terminal Backgrounds
 
-<span style="color: #b8d4b2;">Each project I work in gets its own background color. My obsidian vault gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path.</span>
+Each project I work in gets its own background color. My obsidian vault gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path.
 
 This is what I have in my `~/.bash_profile`:
 
@@ -33,13 +33,13 @@ esac
 PROMPT_COMMAND="_dir_color${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
 ```
 
-<span style="color: #b8d4b2;">The background shifts the moment you `cd` into a project directory.</span>
+The background shifts the moment you `cd` into a project directory.
 
 ![Ghostty splits with color-coded backgrounds](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
 
 ## Matching VS Code to the Terminal
 
-<span style="color: #b8d4b2;">Every project repo gets a `.vscode/settings.json` that sets the title bar and status bar colors to match Ghostty's background for that project. Commit it so teammates get the same environment automatically.</span>
+Every project repo gets a `.vscode/settings.json` that sets the title bar and status bar colors to match Ghostty's background for that project. Commit it so teammates get the same environment automatically.
 
 Here's [the one for this blog](https://github.com/tylerganter/blog/blob/main/.vscode/settings.json) — deep navy/indigo with warm amber text.
 
@@ -47,7 +47,7 @@ Here's [the one for this blog](https://github.com/tylerganter/blog/blob/main/.vs
 
 ## Custom Status Line
 
-<span style="color: #b8d4b2;">Claude Code lets you wire up a shell script to drive the status line at the bottom of the terminal. One line in `~/.claude/settings.json`:</span>
+Claude Code lets you wire up a shell script to drive the status line at the bottom of the terminal. One line in `~/.claude/settings.json`:
 
 ```json
 {
@@ -55,7 +55,7 @@ Here's [the one for this blog](https://github.com/tylerganter/blog/blob/main/.vs
 }
 ```
 
-<span style="color: #b8d4b2;">My script ([statusline-command.sh](https://github.com/tylerganter/blog/blob/main/assets/statusline-command.sh)) shows three things: the model name, a visual context window usage bar, and the current git branch.</span>
+My script ([statusline-command.sh](https://github.com/tylerganter/blog/blob/main/assets/statusline-command.sh)) shows three things: the model name, a visual context window usage bar, and the current git branch.
 
 Context usage is the crucial part. Context rot is a real thing. You need to experiment at varying levels of context usage and gain intuition, and while `/context` is useful, it's not the same as an ever-present status bar.
 
