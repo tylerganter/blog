@@ -56,3 +56,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
 - Claude Code web sessions can push to branches but cannot create PRs — the GitHub App private key only exists in the devcontainer's Docker volume, not in Anthropic's hosted environment.
 - Posts use a `description` frontmatter field for homepage card text (and SEO via `jekyll-seo-tag`); the homepage falls back to `post.excerpt` if `description` is absent.
+- Draft posts in `_drafts/` omit the date from the filename (e.g., `digital-detox-youtube-ads.md`) — Jekyll assigns a date based on the file's modification time until it's moved to `_posts/` with the `YYYY-MM-DD-` prefix.
