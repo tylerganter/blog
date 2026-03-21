@@ -56,3 +56,4 @@ The custom domain `tylerganter.com` is configured on the **user site repo** (`ty
 - Use `markdown="1"` on HTML wrapper elements (like `<div>`) in Jekyll Markdown files to enable Markdown processing inside the HTML block.
 - Claude Code web sessions can push to branches but cannot create PRs — the GitHub App private key only exists in the devcontainer's Docker volume, not in Anthropic's hosted environment.
 - Posts use a `description` frontmatter field for homepage card text (and SEO via `jekyll-seo-tag`); the homepage falls back to `post.excerpt` if `description` is absent.
+- Inline HTML elements like `<span>` in Jekyll Markdown must not have blank lines between the opening tag, content, and closing tag — kramdown exits inline HTML context at blank lines, rendering `</span>` as literal text. Keep span + content on a single line.
