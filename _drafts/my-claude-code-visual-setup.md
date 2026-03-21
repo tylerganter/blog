@@ -11,7 +11,7 @@ description: "Ghostty splits, color-coded terminals, matched VSCode chrome, and 
 
 <span style="color: #b8d4b2;">
 
-I've been spending a lot of time in Claude Code lately. And somewhere between tweaking terminal colors and wiring up a custom status line, it occurred to me that someone might find these tidbits useful. The small things compound, and after enough configuration, my terminal actually feels like a coherent environment rather than a tool I'm visiting. Here's what I've landed on.
+I've been spending a lot of time in Claude Code lately. And somewhere between tweaking terminal colors and wiring up a custom status line, I figured I'd share what I've landed on. The small things compound, and after enough configuration, my terminal actually feels like a coherent environment rather than a tool I'm visiting.
 
 </span>
 
@@ -27,7 +27,7 @@ I run [Ghostty](https://ghostty.org) full screen with splits — multiple Claude
 
 <span style="color: #b8d4b2;">
 
-A great shortcut: `Cmd+Shift+Enter`. I use this constantly to zoom into a long Claude response, then pop back out.
+One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, then pop back out.
 
 </span>
 
@@ -73,10 +73,6 @@ Here's [the one for this blog](https://github.com/tylerganter/blog/blob/main/.vs
 
 ![VS Code with matched chrome](/blog/assets/images/claude-code-visual-config/vscode.png)
 
-<span style="color: #b8d4b2;">
-
-</span>
-
 ## Custom Status Line
 
 <span style="color: #b8d4b2;">
@@ -97,10 +93,10 @@ My script ([statusline-command.sh](https://github.com/tylerganter/blog/blob/main
 
 </span>
 
-Context usage is the crucial part. Context rot is a real thing. You need to experiment at varying levels of context usage and gain intuition, and while `/context` is useful, its not the same as an ever-present status bar.
+Context usage is the crucial part. Context rot is a real thing. You need to experiment at varying levels of context usage and gain intuition, and while `/context` is useful, it's not the same as an ever-present status bar.
 
 ![Claude Code statusline](/blog/assets/images/claude-code-visual-config/statusline.png)
 
 ---
 
-I'm still experimenting. I'm not always in the terminal — I still really like the cursor-style editor layout with the AI agent on the right side, which you can get with the Claude Code VS Code extension. But the terminal is at the bleeding edge, and it's the most well-documented and widely adopted interface. That in itself is an advantage.
+I'm still experimenting. I'm not always in the terminal — I still really like the cursor-style editor layout with the AI agent on the right side, which you can get with the Claude Code VS Code extension. But the terminal is at the bleeding edge, and it's the most well-documented and widely adopted interface. The setup is still evolving — hope something here was useful!
