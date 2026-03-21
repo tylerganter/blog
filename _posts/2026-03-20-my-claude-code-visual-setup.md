@@ -5,17 +5,11 @@ tags: [ai, tools]
 description: "Ghostty splits, color-coded terminals, matched VSCode chrome, and a custom status line — how I've configured Claude Code to feel like a coherent environment rather than a bolted-on tool."
 ---
 
-*🤖 Disclaimer: This post was written with AI assistance. <span style="color: #b8d4b2;">Text that is predominantly AI-written will appear in this color.</span>*
-
----
-
-<span style="color: #b8d4b2;">I've been spending a lot of time in Claude Code lately. And somewhere between tweaking terminal colors and wiring up a custom status line, I figured I'd share what I've landed on. The small things compound, and after enough configuration, my terminal actually feels like a coherent environment rather than a tool I'm visiting.</span>
+I've been spending a lot of time in Claude Code lately. And somewhere between tweaking terminal colors and wiring up a custom status line, I figured I'd share what I've landed on. The small things compound, and after enough configuration, my terminal actually feels like a coherent environment rather than a tool I'm visiting.
 
 ## Ghostty, Full Screen, Splits Everywhere
 
 <span style="color: #b8d4b2;">I run [Ghostty](https://ghostty.org) full screen with splits — multiple Claude Code instances side by side, plus panes to watch files, run servers, or check logs. Splits come and go constantly.</span>
-
-![Ghostty splits](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
 
 <span style="color: #b8d4b2;">One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, then pop back out.</span>
 
@@ -40,6 +34,8 @@ PROMPT_COMMAND="_dir_color${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
 ```
 
 <span style="color: #b8d4b2;">The background shifts the moment you `cd` into a project directory.</span>
+
+![Ghostty splits with color-coded backgrounds](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
 
 ## Matching VS Code to the Terminal
 
