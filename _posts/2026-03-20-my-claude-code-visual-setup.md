@@ -15,7 +15,9 @@ One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, the
 
 ## Color-Coded Terminal Backgrounds
 
-Each project I work in gets its own background color. My obsidian vault gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path.
+Each project I work in gets its own background color. My obsidian vault gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path. The background shifts the moment you `cd` into a project directory.
+
+![Ghostty splits with color-coded backgrounds](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
 
 This is what I have in my `~/.bash_profile`:
 
@@ -33,10 +35,6 @@ esac
 PROMPT_COMMAND="_dir_color${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
 ```
 
-The background shifts the moment you `cd` into a project directory.
-
-![Ghostty splits with color-coded backgrounds](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
-
 ## Matching VS Code to the Terminal
 
 Every project repo gets a `.vscode/settings.json` that sets the title bar and status bar colors to match Ghostty's background for that project. Commit it so teammates get the same environment automatically.
@@ -47,6 +45,12 @@ Here's [the one for this blog](https://github.com/tylerganter/blog/blob/main/.vs
 
 ## Custom Status Line
 
+My status line shows three things: the model name, a visual context window usage bar, and the current git branch.
+
+Context usage is the crucial part. Context rot is a real thing. You need to experiment at varying levels of context usage and gain intuition, and while `/context` is useful, it's not the same as an ever-present status bar.
+
+![Claude Code statusline](/blog/assets/images/claude-code-visual-config/statusline.png)
+
 Claude Code lets you wire up a shell script to drive the status line at the bottom of the terminal. One line in `~/.claude/settings.json`:
 
 ```json
@@ -55,11 +59,7 @@ Claude Code lets you wire up a shell script to drive the status line at the bott
 }
 ```
 
-My script ([statusline-command.sh](https://github.com/tylerganter/blog/blob/main/assets/statusline-command.sh)) shows three things: the model name, a visual context window usage bar, and the current git branch.
-
-Context usage is the crucial part. Context rot is a real thing. You need to experiment at varying levels of context usage and gain intuition, and while `/context` is useful, it's not the same as an ever-present status bar.
-
-![Claude Code statusline](/blog/assets/images/claude-code-visual-config/statusline.png)
+My script is [here](https://github.com/tylerganter/blog/blob/main/assets/statusline-command.sh).
 
 ---
 
