@@ -2,10 +2,10 @@
 title: "My Current Claude Code Visual Setup"
 date: 2026-03-20
 tags: [ai, tools]
-description: "Ghostty splits, color-coded terminals, matched VSCode chrome, and a custom status line — how I've configured Claude Code to feel like a coherent environment rather than a bolted-on tool."
+description: "Ghostty splits, status lines, and color-coded visual indicators — my latest dev setup for managing AI agents."
 ---
 
-I've been spending a lot of time in Claude Code lately. And somewhere between tweaking terminal colors and wiring up a custom status line, I figured I'd share what I've landed on. The small things compound, and after enough configuration, my terminal actually feels like a coherent environment rather than a tool I'm visiting.
+As many of you are well aware of, software engineering is being uprooted as we speak. I've been spending a lot of time in Claude Code lately, and I have been tweaking my dev environment along the way in order to keep the [cognitive debt](https://simonwillison.net/2026/Feb/15/cognitive-debt/) as bay. The small things compound, so I figured I'd share what I'm currently working with.
 
 ## Ghostty, Full Screen, Splits Everywhere
 
@@ -15,11 +15,11 @@ One shortcut I use constantly: `Cmd+Shift+Enter` to zoom into a single pane, the
 
 ## Color-Coded Terminal Backgrounds
 
-Each project I work in gets its own background color. My obsidian vault gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path. The background shifts the moment you `cd` into a project directory.
+Each project I work in gets its own background color. My obsidian vault repo gets a subtle green tint, the blog goes deep blue. It's cosmetic, but useful — when I'm context-switching between projects, the color registers before I've consciously parsed the directory path. The background shifts the moment you `cd` into a project directory.
 
 ![Ghostty splits with color-coded backgrounds](/blog/assets/images/claude-code-visual-config/ghostty-splits.png)
 
-This is what I have in my `~/.bash_profile`:
+Configure it in `~/.bash_profile`:
 
 ```bash
 # Tint terminal background based on directory
