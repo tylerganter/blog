@@ -35,10 +35,16 @@ if [ -n "$cwd" ]; then
         || git -C "$cwd" rev-parse --short HEAD 2>/dev/null)
 fi
 
+# --- Cruise mode ---
+cruise=""
+if [ "${CLAUDE_CRUISE:-}" = "1" ]; then
+    cruise="🚗💨 "
+fi
+
 # --- Assemble status line ---
 # Use printf with ANSI colors (dim-friendly)
-# Order: model  context_bar  session name  git branch
-parts=$(printf '\033[0;36m%s\033[0m  \033[0;33m%s\033[0m' "$model" "$ctx_str")
+# Order: cruise indicator  model  context_bar  git branch
+parts=$(printf '%s\033[0;36m%s\033[0m  \033[0;33m%s\033[0m' "$cruise" "$model" "$ctx_str")
 
 if [ -n "$git_branch" ]; then
     printf '%s  \033[0;32m\ue0a0 %s\033[0m' "$parts" "$git_branch"
