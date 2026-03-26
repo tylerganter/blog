@@ -75,10 +75,10 @@ I have a [custom statusline](/blog/2026/03/20/my-claude-code-visual-setup/) prov
 Useful when you hit approval fatigue partway through a task. Again, the primary use case to me is bulk operations or a clear workflow where the tracks are laid for high probablility of success.
 
 ```
-────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────
 ❯ /rename
 ❯ /exit
-────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────
 
 $ claude-cruise --resume "<session-name>"
 ```
