@@ -63,6 +63,6 @@ I've spent hardly an hour or two on pi; my questions on security are far from an
 
 ---
 
-Welp, it's been a wild ride, Claude Code. I did have a lot of fun, but a lot of stress and chaos as well, and I'm getting to a phase in my life where I'm looking for a more mature, stable relationship with my coding harness. So for now, I just need some space....
+Welp, it's been a wild ride, Claude Code. I did have a lot of fun, but a lot of stress and chaos as well, and I'm getting to a phase in my life where I'm looking for a more mature, stable relationship with my coding harness. So for now, I just need some space...
 
 ![Should I be worried?](/blog/assets/images/breakup/should_i_be_worried.png)
