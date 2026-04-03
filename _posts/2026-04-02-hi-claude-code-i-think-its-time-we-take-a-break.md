@@ -23,7 +23,7 @@ But more importantly, I have been building out a carefully curated infrastructur
 
 ![It's not even close](/blog/assets/images/breakup/its_not_even_close.png)
 
-I'm surprised this got me, because after digging deeper I found that this has been baked into the system prompt for months. But this gets at the deeper problem at hand...
+I'm surprised this got me, because after some digging I found that this has been baked into the system prompt for months. But this gets at the deeper problem at hand...
 
 ## The Root Problem
 
@@ -32,10 +32,10 @@ Claude made some updates the other day — somewhere around [v2.1.89](https://gi
 In the past two days I have
 
 - learned that after a `/compact` any unused skills get [wiped from the context](https://code.claude.com/docs/en/context-window) despite "_Skill descriptions are loaded into context so Claude knows what’s available. All skill names are always included_" [a short suburl away](https://code.claude.com/docs/en/skills#skill-descriptions-are-cut-short)
-- learned "_Claude doesn't actually know what its tools do until it searches for them. Open issues on anthropics/claude-code (all with zero Anthropic response) <proceeds to list 4 Issues>_" after it failing to search Gmail when I clearly hinted that the answer was likely there.
+- discovered this after it failed to search Gmail when I clearly hinted that the answer was likely there: "_Claude doesn't actually know what its tools do until it searches for them. Open issues on anthropics/claude-code (all with zero Anthropic response) <proceeds to list 4 Issues>_"
 - hit 500 API errors while asking Claude to explain a bug in Claude Code
-- found [another bug](https://github.com/anthropics/claude-code/issues/26251) for skills that I don't want the model to invoke
-- probably ~100 other things I didn't bother to investigate, let alone document — scrolling issues? that's new
+- found [another bug](https://github.com/anthropics/claude-code/issues/26251) that breaks `disable-model-invocation: true`
+- dealt with probably ~100 other things I didn't bother to investigate, let alone document — scrolling issues? that's new
 
 These aren't LLM issues. LLMs make mistakes. We all know that by now and we have all learned ways to work with them despite it. These are software updates, bugs, idiosyncrasies and contradictions that are doing nothing to boost my productivity or my agentic coding proficiency. And notably the solutions are contradictory: one behooves you to learn more about Claude Code and have a deeper understanding of context management, while another bites you for that same depth of knowledge when you run up against bugs.
 
@@ -43,9 +43,9 @@ To step back, the issue is not that I am prompted for approval more than I'd lik
 
 ## This is Not Convenient
 
-To quote Dario, I have little patience for bullshit. Claude Code, you have exhausted the last of it. I'm not excited to arrive at this ultimatum. I know the potential of agentic coding. I see where this is headed. But it's simply not there yet and Anthropic appears to be playing a risky hand and recent events have shown that they are not playing it well.
+To quote Dario, I have little patience for bullshit. Claude Code, you have exhausted the last of it. I'm not excited to arrive at this ultimatum. I know the potential of agentic coding. I see where this is headed. But it's simply not there yet...and Anthropic is playing an overambitious hand and making clearer every day that they are not playing it well.
 
-As of right now I am planning to shift to [pi](https://shittycodingagent.ai/). I'm also entertaining just rolling back to Cursor, but only time will tell. Let me be clear, I don't have a Dvorak keyboard. I don't use vim. I'm a normie that likes GUIs and whatever pragmatic nicely packaged stuff that will streamline my job. I just need something stable, and I like knowing that if I invest time in building out AI agent capability that it will pay off for more than a day before the dependencies it runs on update and break. From the little I've played around with and [read](https://lucumr.pocoo.org/2026/1/31/pi/) about pi thus far, it appears to be well written, responsive software with good primitives and extensibility.
+As of right now I am planning to shift to [**pi**](https://shittycodingagent.ai/). I'm also entertaining just rolling back to Cursor, but only time will tell. 🤷 Let me be clear, I don't have a Dvorak keyboard. I don't use vim. I'm a normie that likes GUIs and whatever pragmatic nicely packaged stuff that will streamline my job. I just need something stable, and I like knowing that if I invest time in building out AI agent capability that it will pay off for more than a day before the dependencies it runs on update and break. From the little I've played around with and [read](https://lucumr.pocoo.org/2026/1/31/pi/) about pi thus far, it appears to be well written, responsive software with good primitives and extensibility.
 
 It's not going to be an easy transition. I already miss my out-of-the-box web search and subagents. But you've left me no choice Claude Code.
 
@@ -63,6 +63,6 @@ I've spent hardly an hour or two on pi; my questions on security are far from an
 
 ---
 
-Welp, it's been a wild ride, Claude Code. I did have a lot of fun, but a lot of stress and anxiety as well, and right now I just need some space.
+Welp, it's been a wild ride, Claude Code. I did have a lot of fun, but a lot of stress and chaos as well, and I'm getting to a phase in my life where I'm looking for a more mature, stable relationship with my coding harness. So for now, I just need some space....
 
 ![Should I be worried?](/blog/assets/images/breakup/should_i_be_worried.png)
