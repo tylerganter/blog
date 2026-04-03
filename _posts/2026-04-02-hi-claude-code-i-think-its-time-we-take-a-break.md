@@ -1,7 +1,8 @@
 ---
 title: "Hi Claude Code, I think it's time we take a break..."
-tags: [ai, engineering]
-description: ""
+date: 2026-04-02
+tags: [ai, tools]
+description: "Bugs, contradictions, and daily breaking changes finally pushed me to leave Claude Code for pi. A breakup letter to the agentic coding tool I wanted to love."
 ---
 
 > **Dwarkesh Patel:** ...last year, there was a major study where...[developers] reported that they felt more productive with the use of these models. But in fact...there was a 20% downlift.
@@ -20,7 +21,7 @@ Why does this matter? Well first of all it's frustrating to see regressive "unau
 
 But more importantly, I have been building out a carefully curated infrastructure of settings, permissions, connections, fine-grained access tokens and hooks to allow Claude Code to run as autonomously as possible while still being constrained to the level of security and oversight I feel comfortable with. As a sanity check, let's see what Claude has to say on the matter:
 
-![It's not even close](/blog/assets/images/its_not_even_close.png)
+![It's not even close](/blog/assets/images/breakup/its_not_even_close.png)
 
 I'm surprised this got me, because after digging deeper I found that this has been baked into the system prompt for months. But this gets at the deeper problem at hand...
 
@@ -49,6 +50,8 @@ As of right now I am planning to shift to [pi](https://shittycodingagent.ai/). I
 
 It's not going to be an easy transition. I already miss my out-of-the-box web search and subagents. But you've left me no choice Claude Code.
 
+I should add that I have nothing against the models. Opus 4.6 is incredibly powerful. It just feels like Anthropic had a huge lead on the competition and decided to fumble it with poor strategy.
+
 ## Open Questions on Security
 
 Ironically what brought me to all of this were concerns about Claude Code's handling of security with GitHub, a connection that is simultaneously extremely powerful and risky. Pi appears to have full access to your entire file system by default, and it doesn't support MCP.
@@ -61,4 +64,4 @@ I've spent hardly an hour or two on pi; my questions on security are far from an
 
 Welp, it's been a wild ride, Claude Code. I did have a lot of fun, but a lot of stress and anxiety as well, and right now I just need some space.
 
-![Should I be worried?](/blog/assets/images/should_i_be_worried.png)
+![Should I be worried?](/blog/assets/images/breakup/should_i_be_worried.png)
