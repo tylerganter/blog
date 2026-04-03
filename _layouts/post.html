@@ -31,3 +31,16 @@ layout: default
     <a href="{{ '/' | relative_url }}" class="back-link">&larr; Back to all posts</a>
   </footer>
 </article>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.querySelectorAll('.post-content img').forEach(function(img) {
+    if (img.closest('a')) return;
+    var a = document.createElement('a');
+    a.href = img.src;
+    a.classList.add('glightbox');
+    img.parentNode.insertBefore(a, img);
+    a.appendChild(img);
+  });
+  GLightbox({ selector: '.glightbox', loop: true });
+</script>
