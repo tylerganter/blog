@@ -2,7 +2,7 @@
 title: "Hi Claude Code, I think it's time we take a break..."
 date: 2026-04-02
 tags: [ai, tools]
-description: "Bugs, contradictions, and daily breaking changes finally pushed me to leave Claude Code for pi. A breakup letter to the agentic coding tool I wanted to love."
+description: "After a three-month rollercoaster it is clear this relationship is toxic"
 ---
 
 > **Dwarkesh Patel:** ...last year, there was a major study where...[developers] reported that they felt more productive with the use of these models. But in fact...there was a 20% downlift.

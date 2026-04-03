@@ -2,7 +2,7 @@
 title: "My Current Claude Code Visual Setup"
 date: 2026-03-20
 tags: [ai, tools]
-description: "Ghostty splits, status lines, and color-coded visual indicators — my latest dev setup for managing AI agents."
+description: "Ghostty splits, status lines, and color-coded visual indicators — my latest dev setup for managing AI agents"
 ---
 
 As many of you are well aware of, software engineering is being uprooted as we speak. I've been spending a lot of time in Claude Code lately, and I have been tweaking my dev environment along the way in order to keep the [cognitive debt](https://simonwillison.net/2026/Feb/15/cognitive-debt/) as bay. The small things compound, so I figured I'd share what I'm currently working with.
