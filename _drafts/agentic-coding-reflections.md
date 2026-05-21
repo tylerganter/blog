@@ -120,7 +120,36 @@ But my takeaway is not that it is less efficient, it's that there is a real cost
 
 In case this section wasn't unsettling enough I'll end with [this](https://x.com/damianplayer/status/2056352308347232494). (yes it's real)
 
-## Caveats and Glimmers of Optimism
+---
+
+## Glimmers of Optimism
+
+### AI is Still Pretty Amazing (for Some Things)
+
+There has been a lot of criticism of AI in this post but that doesn't mean it's all bad. I still love leveraging AI for things it is good at, things like
+
+- searching through huge swaths of data for needles
+- prototyping
+- one-off scripting
+- acting as my personal fuzzy dictionary for all established coding patterns and tricks
+
+And AI is **sparking creativity**. This entire blog exists because I had so many thoughts and I wanted to start sharing them. I was able to vibe code the blog without touching the code. I thought it would be nice to add analytics. That took 20 minutes, and AI walked me through it step by step. AI is challenging us to introspect, and some people are creating [truly impressive work](https://www.youtube.com/watch?v=k51k2AyUpao) through that process.
+
+### We Can Be Intentional
+
+The optimist in me says that much of the struggle happening right now is because we aren't being intentional. How could we be? It's all so new. But the patterns are emerging. Even writing this post has helped me solidify them. And if we are unintentionally falling into despair, that means we can _intentionally_ climb to fulfillment.
+
+We have fallen victim to a temptation that AI will make us jacks of all trades, but using AI this way has implications outside of just your effectiveness. It could cause issues across the board if you are taking on work outside of your expertise: pumping out slop, causing bugs, becoming a miserable human appendage for the AI. The solution is to resist this urge; **have clear ownership**, so that contributors can have **pride** in what they are putting out, and be opinionated about doing things the "right" way and not just the way that gets it out the door fastest.
+
+Judgement on when and how it is appropriate to use AI is going to come down to personal taste. I prefer to move slow, do it once and do it right, but the judgement may be different for someone who likes to move fast and loose.
+
+I also think it is now important to note that **agentic coding is not AI engineering**: I have no loyalty to agentic coding. I like math and programming. That's how I got into digital signal processing, then machine learning. As the use of AI tooling for software development branches off and diverges I am hopeful that there will be opportunity to go back to some of the core skills that make an effective AI engineer, namely data driven experimentation, continuous improvement, and optimizing cost, accuracy, reliability and speed in an ever-evolving landscape.
+
+### This is a Moment
+
+It hit like a freight train; there is no reason to expect it to remain stable now. For me, Fall 2025 was the heyday. Cursor was at its prime. February was exciting in a different way, so much hustle and bustle and learning. This is a moment. Who knows what the next 6 months will bring. Things could change as quickly as they swept in. So let's enjoy it for what it is. 🙂
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">This is the greatest video I’ve ever seen. No notes. The lifeless clanker carcass just laying there. No crowd reaction, anything. Just Billie Jean. Until its lifeless shell is shamefully dragged off. Purely amazing. <a href="https://t.co/4WSUwZr7nO">pic.twitter.com/4WSUwZr7nO</a></p>&mdash; Tatum Turn Up (@tatumturnup) <a href="https://twitter.com/tatumturnup/status/2056890084822290719?ref_src=twsrc%5Etfw">May 20, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
