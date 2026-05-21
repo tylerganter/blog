@@ -74,7 +74,7 @@ We are fundamentally constrained by how good the models are, how they are traine
 
 It took OpenAI [three years to figure out](https://openai.com/index/why-language-models-hallucinate/) you should train with an "I don't know" option, and they still pointed the finger at some amorphous consortium of benchmark curators instead of at themselves. Since then hallucinations have only gotten worse.
 
-![OpenAI hallucination trends]({{ site.baseurl }}/assets/images/agentic-coding-reflections/openai*hallucination_trends.png)
+![OpenAI hallucination trends]({{ site.baseurl }}/assets/images/agentic-coding-reflections/openai_hallucination_trends.png)
 _Hallucination rates across OpenAI's recent model releases — [source](https://artificialanalysis.ai/?models=gpt-5-5-high%2Cgpt-5-5%2Cgpt-4o-2024-08-06%2Cgpt-4o%2Cgpt-5%2Cgpt-5-4%2Cgpt-5-2%2Cgpt-5-1&intelligence=artificial-analysis-intelligence-index&omniscience=omniscience-hallucination-rate)_
 
 It seems to me that
