@@ -74,8 +74,8 @@ We are fundamentally constrained by how good the models are, how they are traine
 
 It took OpenAI [three years to figure out](https://openai.com/index/why-language-models-hallucinate/) you should train with an "I don't know" option, and they still pointed the finger at some amorphous consortium of benchmark curators instead of at themselves. Since then hallucinations have only gotten worse.
 
-![OpenAI hallucination trends]({{ site.baseurl }}/assets/images/agentic-coding-reflections/openai_hallucination_trends.png)
-<em>Hallucination rates across OpenAI's recent model releases — [source](https://artificialanalysis.ai/?models=gpt-5-5-high%2Cgpt-5-5%2Cgpt-4o-2024-08-06%2Cgpt-4o%2Cgpt-5%2Cgpt-5-4%2Cgpt-5-2%2Cgpt-5-1&intelligence=artificial-analysis-intelligence-index&omniscience=omniscience-hallucination-rate)</em>
+![OpenAI hallucination trends]({{ site.baseurl }}/assets/images/agentic-coding-reflections/openai*hallucination_trends.png)
+_Hallucination rates across OpenAI's recent model releases — [source](https://artificialanalysis.ai/?models=gpt-5-5-high%2Cgpt-5-5%2Cgpt-4o-2024-08-06%2Cgpt-4o%2Cgpt-5%2Cgpt-5-4%2Cgpt-5-2%2Cgpt-5-1&intelligence=artificial-analysis-intelligence-index&omniscience=omniscience-hallucination-rate)_
 
 It seems to me that
 
@@ -106,10 +106,10 @@ Performing drag and drop because the AI cannot access media through the API...ma
 
 I had a laugh reading this comment on [a video](https://www.youtube.com/watch?v=ZugX7a99dLk&lc=UgzSmNahqzRCPc95-H54AaABAg) the other day:
 
-> Dev = 1 hour to code
-> LLM = 5 minutes to code
-> 5 hours to create the skills for the agent
-> 5 hours to review the code
+> Dev = 1 hour to code<br>
+> LLM = 5 minutes to code<br>
+> 5 hours to create the skills for the agent<br>
+> 5 hours to review the code<br>
 > 1 day to fix all the bugs
 >
 > PROGRESS !!!
