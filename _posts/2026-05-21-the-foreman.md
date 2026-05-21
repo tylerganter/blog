@@ -108,9 +108,9 @@ I had a laugh reading this comment on [a video](https://www.youtube.com/watch?v=
 
 > Dev = 1 hour to code<br>
 > LLM = 5 minutes to code<br>
-> 5 hours to create the skills for the agent<br>
-> 5 hours to review the code<br>
-> 1 day to fix all the bugs
+> &emsp;&emsp;5 hours to create the skills for the agent<br>
+> &emsp;&emsp;5 hours to review the code<br>
+> &emsp;&emsp;1 day to fix all the bugs
 >
 > PROGRESS !!!
 
