@@ -116,7 +116,9 @@ I had a laugh reading this comment on [a video](https://www.youtube.com/watch?v=
 
 But my takeaway isn't that it's less efficient — it's that there is a real cost beyond just productivity. Is it better for a company to observe 50% productivity gains and all the devs dread waking up in the morning, or 20% gains and happy devs? Heck, make it even more extreme, call it 100% vs 10%, and forget about the well-being of the devs, only the success of the company. The latter still seems like the safer long-term bet.
 
-In case this section wasn't unsettling enough I'll end with [this](https://x.com/damianplayer/status/2056352308347232494). (yes it's real)
+In case this section wasn't unsettling enough I'll end with this. (yes it's real)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">MIT students gave AI a body.<br><br>the camera sees what’s in front of you. you say what you want. <br><br>the device moves your fingers with small electric pulses.<br><br>it plays piano without training. it draws what you describe. it mixes a drink while you watch your own arm do it.<br><br>the brain… <a href="https://t.co/I3IUHMxkDY">pic.twitter.com/I3IUHMxkDY</a></p>&mdash; Damian Player (@damianplayer) <a href="https://twitter.com/damianplayer/status/2056352308347232494?ref_src=twsrc%5Etfw">May 18, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
