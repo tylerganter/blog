@@ -1,15 +1,15 @@
 ---
-title: "The Promise and Reality of AI Coding: A Short Story"
-date: 2026-05-18
+title: "The Foreman"
+date: 2026-05-21
 tags: [ai, engineering]
 description: "Reflections from four months of heavy use of agentic coding tools"
 ---
 
-Congratulations!!! You got the promotion! The company has been exploring a new type of machine that designs and builds the product automatically. This used to be _your_ job, and instead of getting laid off you got promoted to foreman, whew!
+Congratulations!!! You got the promotion! It used to be _your_ job to design and build the product. Now there's a machine for that, and instead of getting laid off you got promoted to foreman — whew!
 
-These machines are impressive. You've seen the demos and they manufacture incredibly complicated stuff at blazing speeds. And everyone is talking about them. The testimonials are flooding in about doubling, no tripling, no 10X-ing throughputs!!! You'd be crazy not to have them!
+And what a machine. You've seen the demos. The testimonials are flooding in about doubling, no tripling, no 10X-ing throughputs!!! You'd be crazy not to be running them.
 
-And your promotion is incredibly exciting. There is so much fun learning to do. These new machines are fascinating and you get to work with them day in and day out, tweaking and customizing, iterating until they are fully integrated into your factory in a giant beautifully orchestrated dance. Let's get started!
+And the learning is going to be _fun_. These things are genuinely fascinating — you get to spend your days tweaking, customizing, learning their quirks, integrating eight of them into your factory. Let's get started!
 
 ---
 
@@ -90,15 +90,13 @@ We were warned of the impending SaaS-pocalypse, only to get sidelined by an epid
 
 This is the answer to what happens when AI slop proliferates through the entire white collar workforce.
 
-### Hypesters
+Meanwhile, the hypesters are out there saying with a straight face that coders are [20x more productive](https://x.com/TFTC21/status/2056815935705714945). I tuned out months ago from the AI daily brief after claims that [AGI is already here](https://podcasts.apple.com/us/podcast/code-agi-is-functional-agi-and-its-here/id1680633614?i=1000745617772), a far cry even by his shaky definition of AGI. And sorry, but I just don't want to hear about how fast you vibe coded your project until it has been [in customer hands for an extended period of time](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#the-new-challenge-of-evaluating-software).
 
-I'm particularly jaded towards the hypesters. I'm talking about the people that say with a straight face that coders are [20x more productive](https://x.com/TFTC21/status/2056815935705714945). I had to tune out months ago from the AI daily brief after claims that [AGI is already here](https://podcasts.apple.com/us/podcast/code-agi-is-functional-agi-and-its-here/id1680633614?i=1000745617772), which is a far cry even by his shaky definition of AGI.
-
-My advice: talk about Anthropic. Anthropic, to me, is the most grounded example of a company that is all in on AI, the good, the bad, and the ugly. They are innovating at an incredible speed. They push out products _fast_. But they are also leaving a wake of bugs in their path, bugs for their customers to [deal with](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Anot-planned). Bugs aside, the changes are happening so fast they leave [a bitter experience](https://tylerganter.com/blog/2026/04/02/hi-claude-code-i-think-its-time-we-take-a-break/) with their customers. And let's not forget when they leaked their source code... To be clear I'm not saying their playbook is "wrong". Imperfect, but there are tradeoffs and a lot of uncertainty. I just don't want to hear about how fast you vibe coded your project until it has been [in customer hands for an extended period of time](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#the-new-challenge-of-evaluating-software).
+If you want a grounded example, look at Anthropic. They're all in on AI — the good, the bad, and the ugly. They innovate at an incredible speed, push out products _fast_, and leave a wake of bugs for their customers to [deal with](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Anot-planned). The pace itself [wears customers down](https://tylerganter.com/blog/2026/04/02/hi-claude-code-i-think-its-time-we-take-a-break/). And let's not forget when they leaked their source code. To be clear I'm not saying their playbook is "wrong" — there are real tradeoffs and a lot of uncertainty. But _that's_ the conversation worth having, not the 20x one.
 
 ### Centaurs and Reverse-Centaurs
 
-Cory Doctorow has been on one with his criticisms of tech, and [his diagnosis of **reverse centaurs**](https://doctorow.medium.com/https-pluralistic-net-2025-12-05-pop-that-bubble-u-washington-8b6b75abc28e) is on the money:
+Cory Doctorow has been on a tear with his criticisms of tech, and [his diagnosis of **reverse centaurs**](https://doctorow.medium.com/https-pluralistic-net-2025-12-05-pop-that-bubble-u-washington-8b6b75abc28e) lands:
 
 > In automation theory, a “centaur” is a person who is assisted by a machine. You’re a human head being carried around on a tireless robot body. Driving a car makes you a centaur, and so does using autocomplete.
 >
