@@ -116,7 +116,7 @@ I had a laugh reading this comment on [a video](https://www.youtube.com/watch?v=
 >
 > PROGRESS !!!
 
-But my takeaway is not that it is less efficient, it's that there is a real cost that is not just productivity. Is it better for a company to observe 50% productivity gains and all the devs dread waking up in the morning, or 20% gains and happy devs? Heck, make it even more extreme, call it 100% vs 10%, and forget about the well-being of the devs, only the success of the company. The latter still seems like the safer long-term bet.
+But my takeaway isn't that it's less efficient — it's that there is a real cost beyond just productivity. Is it better for a company to observe 50% productivity gains and all the devs dread waking up in the morning, or 20% gains and happy devs? Heck, make it even more extreme, call it 100% vs 10%, and forget about the well-being of the devs, only the success of the company. The latter still seems like the safer long-term bet.
 
 In case this section wasn't unsettling enough I'll end with [this](https://x.com/damianplayer/status/2056352308347232494). (yes it's real)
 
@@ -139,11 +139,11 @@ And AI is **sparking creativity**. This entire blog exists because I had so many
 
 The optimist in me says that much of the struggle happening right now is because we aren't being intentional. How could we be? It's all so new. But the patterns are emerging. Even writing this post has helped me solidify them. And if we are unintentionally falling into despair, that means we can _intentionally_ climb to fulfillment.
 
-We have fallen victim to a temptation that AI will make us jacks of all trades, but using AI this way has implications outside of just your effectiveness. It could cause issues across the board if you are taking on work outside of your expertise: pumping out slop, causing bugs, becoming a miserable human appendage for the AI. The solution is to resist this urge; **have clear ownership**, so that contributors can have **pride** in what they are putting out, and be opinionated about doing things the "right" way and not just the way that gets it out the door fastest.
+We have fallen victim to a temptation that AI will make us jacks of all trades, but using AI this way has implications beyond just your effectiveness. It could cause issues across the board if you are taking on work outside of your expertise: pumping out slop, causing bugs, becoming a miserable human appendage for the AI. The solution is to resist this urge; **have clear ownership**, so that contributors can have **pride** in what they are putting out, and be opinionated about doing things the "right" way and not just the way that gets it out the door fastest.
 
 Judgement on when and how it is appropriate to use AI is going to come down to personal taste. I prefer to move slow, do it once and do it right, but the judgement may be different for someone who likes to move fast and loose.
 
-I also think it is now important to note that **agentic coding is not AI engineering**: I have no loyalty to agentic coding. I like math and programming. That's how I got into digital signal processing, then machine learning. As the use of AI tooling for software development branches off and diverges I am hopeful that there will be opportunity to go back to some of the core skills that make an effective AI engineer, namely data driven experimentation, continuous improvement, and optimizing cost, accuracy, reliability and speed in an ever-evolving landscape.
+I also think it is now important to note that **agentic coding is not AI engineering**: I have no loyalty to agentic coding. I like math and programming. That's how I got into digital signal processing, then machine learning. As the use of AI tooling for software development branches off and diverges I am hopeful that there will be opportunity to go back to some of the core skills that make an effective AI engineer, namely data-driven experimentation, continuous improvement, and optimizing cost, accuracy, reliability, and speed in an ever-evolving landscape.
 
 ### This is a Moment
 
