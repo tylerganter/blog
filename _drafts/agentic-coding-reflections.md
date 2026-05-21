@@ -31,4 +31,97 @@ You're not the foreman. You're a very expensive janitor at a factory that ships 
 
 ---
 
+## The Trough of Disillusionment
+
+The honeymoon phase is over. For me, it was frenetic, and from what I have seen I was not alone. And I see myself now transitioning to a new phase where unfortunately my primary sentiments are burnout towards AI and jadedness towards most of those who promote it.
+
+### The Promise of AI Coding VS the Reality
+
+The above story is a dramatization. I hope that most agentic coders are not in _that_ bad of a situation. But there is no doubt in my mind that AI is amplifying some of the worst parts of the job, such as
+
+- **hallucinations**: fixing stupid mistakes with no personal growth or satisfaction
+- **code reviews**: everyone's favorite
+- **bug fixes**: probably mid-sprint, customer-identified issues (assuming your company actually cares about them)
+
+I find that it ebbs and flows, and I never know what my day is going to look like when I flip open my laptop, but here's a list of the bolts I picked up in _one afternoon_:
+
+- prompting me for approval to _read_ a slack message, a permission I set to auto-allow and forgot months ago
+- github MCP was "broken" but it actually wasn't, just went away on its own
+- claude code appears to have changed so that using skills now requires approval?
+  - when requested to investigate the above change in behavior, it just hallucinated unfounded nonsense
+- when claude failed to access a doc from the provided link, it simply read a google drive doc instead and lied about it, pretending it was reading the linked doc
+- a monitoring service I use modified its interface, distracting me while I was trying to chase down an issue
+  - adding insult to injury, on further inspection I realized and later confirmed that there was a misleading bug shipped with the new interface
+- cmd+click no longer working in ghostty with claude code on hyperlinks, then it just works again???
+- "You're right to push back — I was sloppy in my last response. Let me..."
+- "I need to flag a problem. The subagent went off-script: instead of just researching prior PR comments, it ran the entire review pipeline itself and posted a code-review comment on the PR as you (via your gh credentials)"
+- wholesale skipping instructions from a two step request
+- Opus 4.7 went down
+- deleting all the comments in the code
+- In words, said that `""` in python is not falsey
+
+Like I said, every day is a new adventure. But it may be helpful to ask yourself: how often are you on the floor picking up bolts?
+
+### The Skill Build-out Delusion
+
+I can picture someone reading the above experience and thinking "have you tried building skills?". The idea that you can write a bunch of markdown files and somehow arrive at general intelligence is delusional, plain and simple. If the AI cannot reliably follow two back-to-back instructions in a single prompt, what makes you think it would reliably follow coding principles autoloaded into context from a nested `AGENTS.md` file? (assuming that file is up-to-date and doesn't contradict `some/other/RULES.md`)
+
+In my opinion it is far more useful to view skills, prompt hooks, and all the other dynamic context engineering tricks as a souped up version of `IMPORTANT: ...`. They're quirks and hacks that increase the probability that the model will do what you want it to. And that's great! Sometimes, those tricks are just what was needed to cross a threshold of being useful. But with this framing it becomes obvious that this is not a scalable solution. Every skill needs to be maintained and updated...it's unscientific and error prone...and as systems scale issues compound. Prompt engineering works great for [narrow AI](https://www.ibm.com/think/topics/artificial-intelligence-types), but there is an upper limit on reliability and therefore on generalization. If there comes a day that we have a reliable system, it won't need your skill files, it's AGI.
+
+### We Are in Their Hands
+
+We are fundamentally constrained by how good the models are, how they are trained, and what the AI labs are focused on. For example, `gpt-5.4-mini` [benchmarks](https://artificialanalysis.ai/?models=gpt-5-4-mini%2Cgpt-5-4-mini-non-reasoning%2Cgpt-5-4-mini-medium%2Cgpt-5-mini%2Cgpt-5-mini-medium%2Cgpt-5-mini-minimal&intelligence=artificial-analysis-intelligence-index) higher on coding challenges but for all else it is more expensive and worse than `gpt-5-mini`.
+
+It took OpenAI [three years to figure out](https://openai.com/index/why-language-models-hallucinate/) you should train with an "I don't know" option, and they still pointed the finger at some amorphous consortium of benchmark curators instead of at themselves. Since then hallucinations have only gotten worse.
+
+![OpenAI hallucination trends]({{ site.baseurl }}/assets/images/agentic-coding-reflections/openai_hallucination_trends.png)
+<em>Hallucination rates across OpenAI's recent model releases — [source](https://artificialanalysis.ai/?models=gpt-5-5-high%2Cgpt-5-5%2Cgpt-4o-2024-08-06%2Cgpt-4o%2Cgpt-5%2Cgpt-5-4%2Cgpt-5-2%2Cgpt-5-1&intelligence=artificial-analysis-intelligence-index&omniscience=omniscience-hallucination-rate)</em>
+
+It seems to me that
+
+1. randomly sampling from a predicted probability distribution just doesn't imitate the judgement that humans have in a reliable way. it's a hack to go from _language model_ to generative AI
+2. the AI labs aren't putting much emphasis into this anyway. The RL environments are rewarding correct answers, not correct reasoning, and it shows in how they behave out in the wild.
+
+Regardless, it doesn't appear this problem will be going away anytime soon.
+
+### The Slop-pocalypse
+
+We were warned of the impending SaaS-pocalypse, only to get sidelined by an epidemic of AI slop. Tech debt, distractions, upstream issues...none of this is new to software engineering, but the scale is. Github goes down. The AI API goes down. Some other service has an outage. There is a major security vulnerability in a package. There is a security breach and you have to rotate all your keys. And bug after bug after bug. Claude code doesn't display properly in my terminal and I've just shrugged it off despite it being my main interface all day. cURL had to [end their bug bounty program](https://www.bugcrowd.com/blog/hacker-opinion-piece-how-lazy-hacking-killed-curls-bug-bounty/) because "_the security team was drowning in garbage reports_"!!!
+
+This is the answer to what happens when AI slop proliferates through the entire white collar workforce.
+
+### Hypesters
+
+I'm particularly jaded towards the hypesters. I'm talking about the people that say with a straight face that coders are [20x more productive](https://x.com/TFTC21/status/2056815935705714945). I had to tune out months ago from the AI daily brief after claims that [AGI is already here](https://podcasts.apple.com/us/podcast/code-agi-is-functional-agi-and-its-here/id1680633614?i=1000745617772), which is a far cry even by his shaky definition of AGI.
+
+My advice: talk about Anthropic. Anthropic, to me, is the most grounded example of a company that is all in on AI, the good, the bad, and the ugly. They are innovating at an incredible speed. They push out products _fast_. But they are also leaving a wake of bugs in their path, bugs for their customers to [deal with](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Anot-planned). Bugs aside, the changes are happening so fast they leave [a bitter experience](https://tylerganter.com/blog/2026/04/02/hi-claude-code-i-think-its-time-we-take-a-break/) with their customers. And let's not forget when they leaked their source code... To be clear I'm not saying their playbook is "wrong". Imperfect, but there are tradeoffs and a lot of uncertainty. I just don't want to hear about how fast you vibe coded your project until it has been [in customer hands for an extended period of time](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#the-new-challenge-of-evaluating-software).
+
+### Centaurs and Reverse-Centaurs
+
+Cory Doctorow has been on one with his criticisms of tech, and [his diagnosis of **reverse centaurs**](https://doctorow.medium.com/https-pluralistic-net-2025-12-05-pop-that-bubble-u-washington-8b6b75abc28e) is on the money:
+
+> In automation theory, a “centaur” is a person who is assisted by a machine. You’re a human head being carried around on a tireless robot body. Driving a car makes you a centaur, and so does using autocomplete.
+>
+> And obviously, a reverse centaur is machine head on a human body, a person who is serving as a squishy meat appendage for an uncaring machine.
+
+Performing drag and drop because the AI cannot access media through the API...manually reviewing commands because they are operating on sensitive data...cancelling the query and telling the AI "it took too long, optimize it"...these are all examples of the agentic coding reverse centaur. If you've fallen prey to [**cognitive surrender**](https://addyosmani.com/blog/cognitive-surrender/) — the moment an AI reviewer's verdict quietly replaces your own — then the AI is likely in the driver's seat. You are a squishy meat appendage.
+
+I had a laugh reading this comment on [a video](https://www.youtube.com/watch?v=ZugX7a99dLk&lc=UgzSmNahqzRCPc95-H54AaABAg) the other day:
+
+> Dev = 1 hour to code
+> LLM = 5 minutes to code
+> 5 hours to create the skills for the agent
+> 5 hours to review the code
+> 1 day to fix all the bugs
+>
+> PROGRESS !!!
+
+But my takeaway is not that it is less efficient, it's that there is a real cost that is not just productivity. Is it better for a company to observe 50% productivity gains and all the devs dread waking up in the morning, or 20% gains and happy devs? Heck, make it even more extreme, call it 100% vs 10%, and forget about the well-being of the devs, only the success of the company. The latter still seems like the safer long-term bet.
+
+In case this section wasn't unsettling enough I'll end with [this](https://x.com/damianplayer/status/2056352308347232494). (yes it's real)
+
+## Caveats and Glimmers of Optimism
+
+---
+
 _A note on tone: this piece is not a reflection on my company. It draws on my broader experience with AI, the current tenor of public discourse, and a tasteful amount of dramatization. If I thought this were an issue specific to my company, I would be raising it internally or updating my resume. I believe it is an issue with our entire industry, which is why I am sharing these thoughts publicly._
