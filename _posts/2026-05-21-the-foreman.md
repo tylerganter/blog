@@ -76,7 +76,7 @@ In my opinion it is far more useful to view skills, prompt hooks, and all the ot
 
 ### We Are in Their Hands
 
-So it's not a skills issue. The crux is reliability. And we are fundamentally constrained by how good the models are, how they are trained, and what the AI labs are focused on. 
+So it's not a skills issue. The crux is reliability. And we are fundamentally constrained by how good the models are, how they are trained, and what the AI labs are focused on.
 
 It took OpenAI [three years to figure out](https://openai.com/index/why-language-models-hallucinate/) you should train with an "I don't know" option, and they still pointed the finger at some amorphous consortium of benchmark curators instead of at themselves. Since then hallucinations have only gotten worse:
 
@@ -91,7 +91,7 @@ Regardless, it doesn't appear this problem will be going away anytime soon.
 
 ### The Slop-pocalypse
 
-We were warned of the impending SaaS-pocalypse, only to get sidelined by an epidemic of AI slop. Tech debt, distractions, upstream issues...none of this is new to software engineering, but the scale is. Github goes down. The AI API goes down. Some other service has an outage. There is a major security vulnerability in a package. There is a security breach and you have to rotate all your keys. And bug after bug after bug. Claude code doesn't display properly in my terminal and I've just shrugged it off despite it being my main interface all day. 🤷 cURL had to [end their bug bounty program](https://www.bugcrowd.com/blog/hacker-opinion-piece-how-lazy-hacking-killed-curls-bug-bounty/) because "_the security team was drowning in garbage reports_"!!!
+We were warned of the impending SaaS-pocalypse, only to get sidelined by an epidemic of AI slop. Tech debt, distractions, upstream issues...none of this is new to software engineering, but the scale is. GitHub goes down. The AI API goes down. Some other service has an outage. There is a major security vulnerability in a package. There is a security breach and you have to rotate all your keys. And bug after bug after bug. Claude code doesn't display properly in my terminal and I've just shrugged it off despite it being my main interface all day. 🤷 cURL had to [end their bug bounty program](https://www.bugcrowd.com/blog/hacker-opinion-piece-how-lazy-hacking-killed-curls-bug-bounty/) because "_the security team was drowning in garbage reports_"!!!
 
 This is the answer to what happens when AI slop proliferates through the entire white collar workforce.
 
