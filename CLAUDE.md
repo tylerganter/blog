@@ -6,9 +6,38 @@ IMPORTANT: **AI Instruction File Maintenance** — For every PR, you MUST do the
 
 ## Project Overview
 
-Personal blog built with Jekyll, served via GitHub Pages at `tylerganter.com/blog/`. For local dev commands (Jekyll serve, build, drafts), see [.devcontainer/README.md](.devcontainer/README.md).
+Personal blog built with Jekyll, served via GitHub Pages at `tylerganter.com/blog/`.
+
+## Local Development (Primary)
+
+The blog was originally set up to run in a devcontainer (see [.devcontainer/README.md](.devcontainer/README.md)), but the current primary workflow is running Jekyll directly on the host macOS machine — no container required.
+
+**One-time setup:**
+
+```bash
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+bundle config set --local path 'vendor/bundle'
+bundle install
+```
+
+**Run the dev server:**
+
+```bash
+bundle exec jekyll serve --livereload --port 4000
+```
+
+Site serves at `http://127.0.0.1:4000/blog/`. Edits to Markdown/SCSS auto-rebuild and livereload.
+
+Notes:
+
+- The `vendor/` and `.bundle/` directories are gitignored — gems install locally to the repo.
+- A "directory is already being watched" warning about `.venv/lib` is harmless.
+- The devcontainer flow still works if preferred, but is no longer the default.
 
 ### Key Directories
+
 - `/workspace/_posts/` - Published blog posts (Markdown)
 - `/workspace/_drafts/` - Unpublished drafts (Markdown)
 - `/workspace/_layouts/` - Custom HTML layouts (optional, theme provides defaults)
