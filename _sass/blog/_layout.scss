@@ -356,13 +356,6 @@
   line-height: $leading-normal;
   color: $text-secondary;
 
-  // ---- Lede paragraph (first paragraph before any heading) ----
-  > p:first-child {
-    font-size: $text-lg;
-    line-height: 1.6;
-    color: $text-primary;
-    margin-bottom: $sp-8;
-  }
 
   > p {
     margin-bottom: $sp-6;
